@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+
+nav {
+    height: 83px;
+    border-bottom: 1px solid #492833;
+    display: flex;
+}
+
+.main-navigation-content {
+    border-left: 1px solid #492833;
+    border-right: 1px solid #492833;
+    width: 100%;
+}
+
+.border-box {
+    width: 83px;
+    height: auto;
+}
