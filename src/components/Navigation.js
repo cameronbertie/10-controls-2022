@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../svg/logo.svg";
-import bars from "../svg/bars.svg";
 import discordLogo from "../svg/discord-logo.svg";
+import Menu from "./Menu";
 import "../stylesheets/Navigation.css";
+import Hamburger from "hamburger-react";
 
 export default function Navigation() {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <nav className="main-site-nav">
@@ -17,8 +19,23 @@ export default function Navigation() {
           </div>
           <div className="main-navigation-link">F1 22</div>
         </div>
-        <div className="border-box border-box-right">
-          <img className="menu-icon" src={bars} alt="Menu Icon" />
+        <div
+          className="border-box border-box-right"
+         
+        >
+          <Hamburger
+            className="hamburger-icon"
+            toggled={isOpen}
+            toggle={setOpen}
+            color="#ffffff"
+          />
+          { isOpen &&
+            <Menu />
+          }
+          <div>
+
+          </div>
+
         </div>
       </nav>
       <nav className="side-nav side-nav-left">

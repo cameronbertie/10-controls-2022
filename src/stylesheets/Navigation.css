@@ -4,10 +4,7 @@
   display: flex;
   justify-content: space-between;
   z-index: 1000px;
-  font-family: "Inter", sans-serif;
   text-transform: uppercase;
-  text-align: center;
-  font-weight: 900;
   font-size: 14px;
   color: #c18794;
 }
@@ -17,6 +14,7 @@
   column-gap: 24px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .main-navigation-link {
@@ -67,7 +65,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
 }
 
 .border-box-left {
@@ -81,11 +78,7 @@
 .navigation-logo {
   width: 46px;
   height: auto;
-}
-
-.menu-icon {
-  width: 52px;
-  height: auto;
+  cursor: pointer;
 }
 
 .side-nav {
