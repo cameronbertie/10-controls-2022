@@ -1,0 +1,85 @@
+.next-race-container {
+    display: flex;
+    column-gap: 24px;
+    padding: 60px 8%;
+    background-color: #492833;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.next-race-heading {
+    margin-bottom: 20px;
+}
+
+.view-all-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.view-all-link {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.next-race-box {
+    background-color: black;
+    border-radius: 10px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.flag-img {
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.next-race-tier-container {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    justify-content: space-around;
+    text-align: center;
+    margin: 34px 0;
+}
+
+.tier-button {
+    background-color: white;
+}
+
+.tier-button:hover {
+    background-color: #C18794;
+}
+
+.header-row {
+    display: none;
+}
+
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    .next-race-tier-container {
+        flex-direction: column;
+        row-gap: 34px;
+    }
+
+    .header-row {
+        display: block;
+    }
+  
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+    
+  }
+  

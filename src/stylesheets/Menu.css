@@ -10,7 +10,7 @@
     margin: 0 84px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 60px 8%;
     grid-column-gap: 32px;
     grid-row-gap: 48px; 
@@ -37,7 +37,8 @@
 
 .menu-hr {
     width: 32px;
-    border-color: #492833;
+    border:1.5px solid #492833;
+    background-color: #492833;
 }
 
 .category-heading {

@@ -4,6 +4,7 @@ import discordLogo from "../svg/discord-logo.svg";
 import Menu from "./Menu";
 import "../stylesheets/Navigation.css";
 import Hamburger from "hamburger-react";
+import { Link } from 'react-router-dom'
 
 export default function Navigation() {
   const [isOpen, setOpen] = useState(false);
@@ -11,13 +12,19 @@ export default function Navigation() {
     <>
       <nav className="main-site-nav">
         <div className="border-box border-box-left">
+          <Link to="/">
           <img className="navigation-logo" src={logo} alt="10 Controls Logo" />
+          </Link>
         </div>
         <div className="main-navigation-content">
-          <div className="main-navigation-link hvr-underline-from-center">
+          <Link to='/rl'>
+          <div className="main-navigation-link">
             Rocket League
           </div>
+          </Link>
+          <Link to='f1'>
           <div className="main-navigation-link">F1 22</div>
+          </Link>
         </div>
         <div
           className="border-box border-box-right"
