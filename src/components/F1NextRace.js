@@ -1,8 +1,8 @@
-import React from 'react';
-import '../App.css';
-import '../stylesheets/F1NextRace.css';
+import React from 'react'
+import '../App.css'
+import '../stylesheets/F1NextRace.css'
 
-function F1NextRace() {
+function F1NextRace () {
   return (
     <>
       <section className="next-race-container">
@@ -34,7 +34,7 @@ function F1NextRace() {
         </div>
 </section>
 </>
-  );
+  )
 }
 
-export default F1NextRace;
+export default F1NextRace

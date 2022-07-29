@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import '../App.css';
-import '../stylesheets/F1RacesMenu.css';
-import F1RacesTierA from './F1RacesTierA';
-import F1RacesTierB from './F1RacesTierB';
+import React, { useState } from 'react'
+import '../App.css'
+import '../stylesheets/F1RacesMenu.css'
+import F1RacesTierA from './F1RacesTierA'
+import F1RacesTierB from './F1RacesTierB'
 
-export default function F1RacesMenu() {
+export default function F1RacesMenu () {
   return (
     <div className="races-menu-container">
         <div className="season-container">
@@ -19,8 +19,6 @@ export default function F1RacesMenu() {
           <F1RacesTierB />
         </div>
         </div>
-            
-       
+
   )
 }
-

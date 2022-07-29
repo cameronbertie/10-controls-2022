@@ -1,11 +1,11 @@
-import React from 'react';
-import '../App.css';
-import '../stylesheets/F1RaceFormat.css';
+import React from 'react'
+import '../App.css'
+import '../stylesheets/F1RaceFormat.css'
 
-function F1RaceFormat() {
+function F1RaceFormat () {
   return (
     <>
-      <section class="race-format-container">
+      <section className="race-format-container">
   <h2>The Format</h2>
   <br></br>
   <p>THERE WILL BE TWO TIERS - TIER A AND TIER B</p>
@@ -24,7 +24,7 @@ The prize-pool for Tier B will run as follows, from P1 to P3 respectively: 5$, 2
   <p>The bottom 5 of Tier B will have to take part in a series of race qualifiers against aspiring reserves to fight for their permanent seat on the grid</p>
 </section>
 </>
-  );
+  )
 }
 
-export default F1RaceFormat;
+export default F1RaceFormat

@@ -19,11 +19,11 @@
 }
 
 .left-grid{
-    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/f1-ferrari-screenshot-1.jpg");
+    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-1.jpg");
 }
 
 .right-grid{
-    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/f1-ferrari-screenshot-2.jpg");
+    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-2.jpg");
 }
 
 .grid-content {

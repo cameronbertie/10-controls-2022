@@ -1,8 +1,8 @@
-import React from 'react';
-import '../App.css';
-import '../stylesheets/F1TierGrid.css';
+import React from 'react'
+import '../App.css'
+import '../stylesheets/F1TierGrid.css'
 
-function F1TierGrid() {
+function F1TierGrid () {
   return (
     <>
       <section className="tier-grid-container">
@@ -13,7 +13,7 @@ function F1TierGrid() {
     <button className="grid-button">Register Now</button>
   </div>
   <div className="right-grid grid">
-  
+
   <div className="grid-heading">Tier B</div>
     <div className="grid-subheading">Season 1</div>
     <div className="grid-text">Every Saturday at 19:30 BST</div>
@@ -21,7 +21,7 @@ function F1TierGrid() {
   </div>
 </section>
 </>
-  );
+  )
 }
 
-export default F1TierGrid;
+export default F1TierGrid
