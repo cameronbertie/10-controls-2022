@@ -38,7 +38,7 @@ form {
     margin-right: auto;
     margin-top: 30px;
     align-items: center;
-    column-gap: 24PX;;
+    column-gap: 24px;
 }
 
 .discord-content-container {
@@ -72,6 +72,10 @@ form {
     form {
         width: 100%;
       }
+
+      .discord-info-container {
+        flex-direction: column;
+    }
   }
   
   /* If the screen size is 799px wide or less, hide the element */
