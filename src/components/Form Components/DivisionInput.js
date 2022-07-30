@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import React, { useEffect, useState } from 'react'
+import PropTypes from 'prop-types'
 
 const DivisionInput = (props) => {
   const firestoreLite = props.firestoreLite
@@ -52,6 +54,10 @@ const DivisionInput = (props) => {
 
         </div>
   )
+}
+
+DivisionInput.propTypes = {
+  name: PropTypes.string.isRequired
 }
 
 export default DivisionInput

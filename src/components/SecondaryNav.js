@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import logo from '../svg/logo.svg'
 import discordLogo from '../svg/discord-logo.svg'

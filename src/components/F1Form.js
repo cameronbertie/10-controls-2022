@@ -1,52 +1,53 @@
-import React, { useState } from "react";
-import "../App.css";
-import "../stylesheets/Register.css";
+/* eslint-disable no-unused-vars */
+import React, { useState } from 'react'
+import '../App.css'
+import '../stylesheets/Register.css'
 
-import firebase from "firebase/compat/app";
-import "firebase/compat/firestore";
-import "firebase/compat/auth";
-import discordLogo from "../svg/discord-logo.svg";
+import firebase from 'firebase/compat/app'
+import 'firebase/compat/firestore'
+import 'firebase/compat/auth'
+import discordLogo from '../svg/discord-logo.svg'
 
-import { useAuthState } from "react-firebase-hooks/auth";
-import { useCollectionData } from "react-firebase-hooks/firestore";
+import { useAuthState } from 'react-firebase-hooks/auth'
+import { useCollectionData } from 'react-firebase-hooks/firestore'
 
-export default function F1Form() {
+export default function F1Form () {
   firebase.initializeApp({
-    apiKey: "AIzaSyDWWT0BU25eVsIguqTMyvr2EAQLM5aFRI8",
-    authDomain: "controls-2022.firebaseapp.com",
-    projectId: "controls-2022",
-    storageBucket: "controls-2022.appspot.com",
-    messagingSenderId: "839231663678",
-    appId: "1:839231663678:web:1ade4a5403d081372ceb6f",
-  });
+    apiKey: 'AIzaSyDWWT0BU25eVsIguqTMyvr2EAQLM5aFRI8',
+    authDomain: 'controls-2022.firebaseapp.com',
+    projectId: 'controls-2022',
+    storageBucket: 'controls-2022.appspot.com',
+    messagingSenderId: '839231663678',
+    appId: '1:839231663678:web:1ade4a5403d081372ceb6f'
+  })
 
-  const auth = firebase.auth();
-  const firestore = firebase.firestore();
+  const auth = firebase.auth()
+  const firestore = firebase.firestore()
 
-  const f1EntryRef = firestore.collection("f1-entry");
+  const f1EntryRef = firestore.collection('f1-entry')
 
-  const [name, setName] = useState("");
-  const [steamCode, setSteamCode] = useState("");
-  const [discordTag, setDiscordTag] = useState("");
-  const [preferredDriverNumber, setPreferredDriverNumber] = useState("");
-  const [nationality, setNationality] = useState("");
+  const [name, setName] = useState('')
+  const [steamCode, setSteamCode] = useState('')
+  const [discordTag, setDiscordTag] = useState('')
+  const [preferredDriverNumber, setPreferredDriverNumber] = useState('')
+  const [nationality, setNationality] = useState('')
 
   const sendSubmission = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
     await f1EntryRef.add({
-      name: name,
+      name,
       steam_code: steamCode,
       discord_tag: discordTag,
       preferred_driver_number: preferredDriverNumber,
-      nationality: nationality,
-    });
+      nationality
+    })
 
-    setName("");
-    setSteamCode("");
-    setDiscordTag("");
-    setPreferredDriverNumber("");
-    setNationality("");
-  };
+    setName('')
+    setSteamCode('')
+    setDiscordTag('')
+    setPreferredDriverNumber('')
+    setNationality('')
+  }
   return (
     <>
       <div className="form-container">
@@ -112,5 +113,5 @@ export default function F1Form() {
         </div>
       </div>
     </>
-  );
+  )
 }

@@ -1,6 +1,7 @@
 // Could be slow as we don't need everything from firebase
 import { initializeApp } from 'firebase/app'
 import { getFirestore } from '@firebase/firestore/lite'
+import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDWWT0BU25eVsIguqTMyvr2EAQLM5aFRI8',
@@ -13,3 +14,4 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig)
 export const firestore = getFirestore(app)
+export const auth = getAuth(app)

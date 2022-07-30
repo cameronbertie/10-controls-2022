@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import Navigation from './components/Navigation';
-import F1Main from './components/F1Main';
-import F1Races from './components/F1Races';
-import F1Register from './components/F1Register';
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react'
+import './App.css'
+import Navigation from './components/Navigation'
+import F1Main from './components/F1Main'
+import F1Races from './components/F1Races'
+import F1Register from './components/F1Register'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App () {
   return (
