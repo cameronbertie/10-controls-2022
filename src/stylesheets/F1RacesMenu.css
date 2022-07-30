@@ -26,7 +26,7 @@
 }
 
 .races-menu-link:hover {
-    color: white;
+    color: white !important;
     transition: 0.3s;
 }
 

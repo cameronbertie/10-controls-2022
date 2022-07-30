@@ -1,0 +1,37 @@
+.race-box-container {
+    padding: 60px 0;
+    color: white;
+    border: solid #C18794 4px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0.8015581232492998) 100%), url("/public/au.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    flex: 0 0 509px;
+}
+
+.race-box-title {
+    font-size: 32px;
+}
+
+.race-box-date {
+    font-size: 24px;
+}
+
+.race-box-button {
+    margin-top: 24px;
+}
+
+/* If the screen size is 1023px wide or less, hide the element */
+@media only screen and (max-width: 1023px) {
+    .race-box-container {
+        flex: 0 0 100%;
+    }
+  
+  }
+  
+  /* If the screen size is 799px wide or less, hide the element */
+  @media only screen and (max-width: 799px) {
+
+  }

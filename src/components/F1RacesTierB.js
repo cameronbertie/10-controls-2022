@@ -5,6 +5,9 @@ import F1RaceBox from './F1RaceBox';
 
 export default function F1RacesTierB() {
   return (
-    <F1RaceBox />
+    <div className="race-tier-container">
+        <F1RaceBox />
+        <F1RaceBox />
+    </div>
   )
 }
