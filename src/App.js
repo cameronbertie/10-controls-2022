@@ -6,7 +6,7 @@ import F1Races from './components/F1Races';
 import F1Register from './components/F1Register';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
+function App () {
   return (
     <Router>
     <div>
@@ -23,13 +23,13 @@ function App() {
         </main>
   </div>
     </Router>
-  );
+  )
 }
 
 const Home = () => (
   <div>
     <h1>Home Page</h1>
   </div>
-);
+)
 
-export default App;
+export default App

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import logo from "../svg/logo.svg";
-import discordLogo from "../svg/discord-logo.svg";
-import Menu from "./Menu";
-import "../stylesheets/Navigation.css";
-import Hamburger from "hamburger-react";
+import React, { useState } from 'react'
+import logo from '../svg/logo.svg'
+import discordLogo from '../svg/discord-logo.svg'
+import Menu from './Menu'
+import '../stylesheets/Navigation.css'
+import Hamburger from 'hamburger-react'
 import { Link } from 'react-router-dom'
 
-export default function Navigation() {
-  const [isOpen, setOpen] = useState(false);
+export default function Navigation () {
+  const [isOpen, setOpen] = useState(false)
   return (
     <>
       <nav className="main-site-nav">
@@ -28,7 +28,7 @@ export default function Navigation() {
         </div>
         <div
           className="border-box border-box-right"
-         
+
         >
           <Hamburger
             className="hamburger-icon"
@@ -56,5 +56,5 @@ export default function Navigation() {
         </div>
       </nav>
     </>
-  );
+  )
 }

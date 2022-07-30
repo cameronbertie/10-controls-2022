@@ -1,7 +1,7 @@
 import React from 'react'
-import "../stylesheets/Menu.css";
+import '../stylesheets/Menu.css'
 
-export default function Menu() {
+export default function Menu () {
   return (
     <div className="menu-container">
         <div className="menu-inner-container">
@@ -17,7 +17,7 @@ export default function Menu() {
                 <div className="category-list">
                 <div className="category-subheading category-item">Wordle For Rocket League</div>
                 </div>
-                
+
             </nav>
             <nav className="category-content ">
             <div className="category-heading category-item">f1 22</div>

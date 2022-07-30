@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const TimeInput = (props) => {
-    return (
+  return (
     <div>
         Time Input Placeholder
     </div>
-    )
+  )
 }
 
-export default TimeInput;
+export default TimeInput

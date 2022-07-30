@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import '../App.css';
-import '../stylesheets/F1RacesMenu.css';
-import F1RacesTierA from './F1RacesTierA';
-import F1RacesTierB from './F1RacesTierB';
+import React, { useState } from 'react'
+import '../App.css'
+import '../stylesheets/F1RacesMenu.css'
+import F1RacesTierA from './F1RacesTierA'
+import F1RacesTierB from './F1RacesTierB'
 
 export default function F1RacesMenu() {
   const [selectedTier, setSelectedTier] = useState('Tier A');
@@ -23,8 +23,6 @@ export default function F1RacesMenu() {
         }
         </div>
         </div>
-            
-       
+
   )
 }
-

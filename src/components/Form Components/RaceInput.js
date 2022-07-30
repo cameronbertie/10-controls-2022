@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const RaceInput = (props) => {
-    return (
+  return (
     <div>
         Race Input Placeholder
     </div>
-    )
+  )
 }
 
-export default RaceInput;
+export default RaceInput
