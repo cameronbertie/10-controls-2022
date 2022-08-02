@@ -42,7 +42,7 @@ const DivisionInput = (props) => {
   return (
         <div>
         <label htmlFor='form-division-input'>
-                        Country
+                        Division
                     </label>
                     <select id='form-division-input' onChange={(e) => setDivision(e.target.value)} defaultValue={divisionList[0].id} required>
                         {divisionList.map(item => {
