@@ -41,6 +41,11 @@
     background-color: #492833;
   }
 
+  .page-content-heading {
+    text-align: center;
+    padding-top: 60px;
+  }
+
   /* If the screen size is 1023px wide or less, hide the element */
 @media only screen and (max-width: 1023px) {
     .hero-image {

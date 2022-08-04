@@ -5,6 +5,7 @@ import Home from './components/Home'
 import F1Main from './components/F1Main'
 import F1Races from './components/F1Races'
 import F1Register from './components/F1Register'
+import F1Drivers from './components/F1Drivers'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App () {
@@ -20,6 +21,7 @@ function App () {
             <Route path="/f1" element={<F1Main />} />
             <Route path="/f1/races" element={<F1Races />} />
             <Route path="/f1/register" element={<F1Register />} />
+            <Route path="/f1/drivers" element={<F1Drivers />} />
           </Routes>
         </main>
       </div>

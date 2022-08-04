@@ -6,7 +6,7 @@ export default function F1Register () {
   return (
     <>
 <div className="page-content">
-<h1>Register Now</h1>
+<h1 className="page-content-heading">Register Now</h1>
     <F1Form />
 </div>
 </>

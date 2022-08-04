@@ -30,7 +30,7 @@ h3 {
 
 h4 {
   font-size: 18.72px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h5 {
@@ -141,6 +141,10 @@ main {
 
   h4 {
     font-size: 16px;
+  }
+
+  button {
+    font-size: 13.28px;
   }
 
 }

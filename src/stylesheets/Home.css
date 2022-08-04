@@ -66,7 +66,16 @@ column-gap: 24px;
 
 /* If the screen size is 1023px wide or less, hide the element */
 @media only screen and (max-width: 1023px) {
+    .featured-section-container {
+        flex-direction: column;
+        row-gap: 30px;
+        }
 
+        .featured-content {
+          width: 100%;
+          max-width: 100%;
+        }
+        
   
   }
   
