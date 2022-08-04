@@ -35,6 +35,11 @@
     margin-right: auto;
   }
 
+  .coming-soon-box {
+    text-align: center;
+    margin-top: 60px;
+  }
+
   .page-content-full {
     padding: 0;
     width: 100%;

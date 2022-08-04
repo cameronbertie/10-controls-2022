@@ -14,7 +14,7 @@ function F1Main () {
 
       <div className="hero-image">
   <div className="hero-text">
-    <h1>F1 22 Racing Leagues</h1>
+    <h1>F1 22 League Racing</h1>
   </div>
 </div>
 

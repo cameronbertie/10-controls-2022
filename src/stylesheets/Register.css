@@ -67,6 +67,11 @@ form {
     background-color: white;
 }
 
+.confirmation-message {
+  text-align: center;
+  margin-top: 30px;
+}
+
 /* If the screen size is 1023px wide or less, hide the element */
 @media only screen and (max-width: 1023px) {
     form {

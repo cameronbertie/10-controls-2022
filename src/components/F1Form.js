@@ -32,6 +32,8 @@ export default function F1Form () {
   const [preferredDriverNumber, setPreferredDriverNumber] = useState('')
   const [nationality, setNationality] = useState('')
 
+  const [showConfirmation, setShowConfirmation] = useState(false)
+
   const sendSubmission = async (e) => {
     e.preventDefault()
     await f1EntryRef.add({
@@ -47,6 +49,8 @@ export default function F1Form () {
     setDiscordTag('')
     setPreferredDriverNumber('')
     setNationality('')
+
+    setShowConfirmation(true)
   }
   return (
     <>
@@ -57,7 +61,9 @@ export default function F1Form () {
             To get a reserve spot for racing
           </h4>
         </div>
-        <form onSubmit={sendSubmission}>
+        <div>
+        {showConfirmation === false
+          ? <form onSubmit={sendSubmission}>
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -92,6 +98,9 @@ export default function F1Form () {
             Submit
           </button>
         </form>
+          : <p className="confirmation-message">Thank you for registering. Make sure you join our discord server to complete your registration.</p>
+        }
+        </div>
       </div>
       <div className="form-container">
         <div className="form-heading-container">
@@ -108,7 +117,7 @@ export default function F1Form () {
             />
           <div className="discord-content-container">
             <h3>10 Controls Community</h3>
-            <button className="discord-join-button">Join</button>
+            <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer"><button className="discord-join-button">Join</button></a>
           </div>
         </div>
       </div>

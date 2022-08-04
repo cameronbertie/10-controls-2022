@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import '../stylesheets/F1NextRace.css'
+import { Link } from 'react-router-dom'
 
 function F1NextRace () {
   return (
@@ -9,7 +10,7 @@ function F1NextRace () {
         <h2 className="next-race-heading">Next Race</h2>
         <hr className="header-row"></hr>
         <div className="view-all-container">
-        <p className="view-all-link">View all races</p>
+        <Link to='/f1/races'><p className="view-all-link">View all races</p></Link>
         </div>
         <div className="next-race-box">
           <div className="flag-img-container">
@@ -29,7 +30,7 @@ function F1NextRace () {
             </div>
           </div>
           <div>
-          <button className="tier-button">Register Now</button>
+          <Link to='/f1/register'><button className="tier-button">Register Now</button></Link>
           </div>
         </div>
 </section>

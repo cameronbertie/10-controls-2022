@@ -1,0 +1,35 @@
+/* eslint-disable no-unused-vars */
+import React from 'react'
+import '../App.css'
+import '../stylesheets/F1Main.css'
+import SecondaryNav from './SecondaryNav'
+import F1RaceFormat from './F1RaceFormat'
+import F1TierGrid from './F1TierGrid'
+import F1NextRace from './F1NextRace'
+
+function RLMain () {
+  return (
+    <>
+    {/* <SecondaryNav /> */}
+
+      <div style={{ backgroundImage: `linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%), url(${'/rl-hero.jpg'})` }} className="hero-image">
+  <div className="hero-text">
+    <h1>Rocket League Tournaments</h1>
+  </div>
+</div>
+
+<div className="page-content">
+    <div className='coming-soon-box'>
+<h2>Rocket League Tournaments are almost here</h2>
+<br></br>
+<h3>Watch This Space For More Information On How to register</h3>
+</div>
+</div>
+{/* <div className="page-content-full">
+<F1NextRace />
+</div> */}
+</>
+  )
+}
+
+export default RLMain

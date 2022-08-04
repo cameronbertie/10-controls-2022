@@ -14,12 +14,12 @@ function F1RaceFormat () {
   <br></br>
   <h3>At the end of every season,</h3>
   <br></br>
-  <p>The top 5 drivers of Tier A will earn a share of the prize-pool, which for Tier A runs as follows, from P1 to P5 respectively: 25$, 10$, 5$, 2.50$, and 1$</p>
+  <p>The top 5 drivers of Tier A will earn a share of the prize-pool, which for Tier A runs as follows, from P1 to P5 respectively: $25, $10, $5, $2.50, and $1</p>
   <br></br>
   <p>The bottom 3 drivers of Tier A will be demoted to Tier B, and will be replaced by the top 3 drivers of Tier B, who will also earn a share of their own prize-pool</p>
   <br></br>
   <p>
-The prize-pool for Tier B will run as follows, from P1 to P3 respectively: 5$, 2.50$ and 1$.</p>
+The prize-pool for Tier B will run as follows, from P1 to P3 respectively: $5, $2.50 and $1.</p>
 <br></br>
   <p>The bottom 5 of Tier B will have to take part in a series of race qualifiers against aspiring reserves to fight for their permanent seat on the grid</p>
 </section>
