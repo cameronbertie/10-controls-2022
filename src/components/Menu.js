@@ -28,6 +28,10 @@ export default function Menu () {
                 {/* <div className="category-link"><Link to="" className="category-item">Tier A</Link></div>
                 <div className="category-link"><a className="category-item">Tier B</a></div> */}
                 </div>
+                <div className="category-subheading"><Link to="/f1/races" className="category-item">Standings</Link></div>
+                {/* <div className="category-link"><Link to="" className="category-item">Tier A</Link></div>
+                <div className="category-link"><a className="category-item">Tier B</a></div> */}
+                </div>
                 <div className="category-list">
                 <div className="category-subheading"><Link to="/f1/drivers" className="category-item">Drivers</Link></div>
                 </div>
