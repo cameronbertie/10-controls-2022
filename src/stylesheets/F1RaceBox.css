@@ -9,6 +9,9 @@
     background-size: cover;
     text-align: center;
     flex: 0 0 509px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .race-box-title {

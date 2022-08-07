@@ -2,15 +2,10 @@ import React from 'react'
 import '../App.css'
 import '../stylesheets/F1RacesTier.css'
 import F1RaceBox from './F1RaceBox'
+import F1RaceBoxComplete from './F1RaceBoxComplete'
 
 export default function F1RacesTierB () {
   const races = [
-    {
-      id: 1,
-      name: 'Melbourne',
-      date: new Date(2022, 7, 6).getTime(),
-      flag: '/au.png'
-    }
   ]
 
   races.push({ id: 2, name: 'Silverstone', date: new Date(2022, 7, 13).getTime(), flag: '/gb.png' })
@@ -29,6 +24,7 @@ export default function F1RacesTierB () {
   races.push({ id: 15, name: 'Yas Marina', date: new Date(2022, 10, 12).getTime(), flag: '/ae.png' })
   return (
     <div className="race-tier-container">
+      <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 6).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-b/melbourne"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}
