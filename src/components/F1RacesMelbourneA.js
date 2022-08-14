@@ -37,6 +37,14 @@ export default function F1RacesMelbourneA () {
         <F1RaceResult teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" constructorName="AlphaTauri" driverName="Jaysen" driverFlag="/nl.png" driverInterval="DNF" driverFastLap="1:25.074" driverGrid="1" driverPosition="-" driverPoints="0" arrow="fa-solid fa-angle-up"/>
         <F1RaceResult teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" constructorName="Mclaren" driverName="iM3j3n" driverFlag="/de.png" driverInterval="DNF" driverFastLap="2:13.213" driverGrid="9" driverPosition="-" driverPoints="0" arrow="fa-solid fa-angle-down"/>
         </table>
+        <div className="driver-day-container">
+          <div>
+            <h4>Driver of the day</h4>
+          </div>
+          <div>
+          <h3>Cortes</h3>
+          </div>
+        </div>
     </div>
   )
 }

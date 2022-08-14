@@ -8,7 +8,6 @@ export default function F1RacesTierB () {
   const races = [
   ]
 
-  races.push({ id: 2, name: 'Silverstone', date: new Date(2022, 7, 13).getTime(), flag: '/gb.png' })
   races.push({ id: 3, name: 'Spa-Francorchamps', date: new Date(2022, 7, 20).getTime(), flag: '/be.png' })
   races.push({ id: 4, name: 'Jeddah', date: new Date(2022, 7, 27).getTime(), flag: '/sa.png' })
   races.push({ id: 5, name: 'Zandvoort', date: new Date(2022, 8, 3).getTime(), flag: '/nl.png' })
@@ -25,6 +24,7 @@ export default function F1RacesTierB () {
   return (
     <div className="race-tier-container">
       <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 6).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-b/melbourne"/>
+      <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 13).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-b/silverstone"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}

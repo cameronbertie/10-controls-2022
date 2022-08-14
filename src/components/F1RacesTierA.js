@@ -24,7 +24,7 @@ export default function F1RacesTierA () {
   return (
     <div className="race-tier-container">
       <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 5).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-a/melbourne"/>
-      <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 5).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-a/silverstone"/>
+      <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 12).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-a/silverstone"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}

@@ -125,7 +125,7 @@ main {
 /* If the screen size is 1023px wide or less, hide the element */
 @media only screen and (max-width: 1023px) {
   main {
-    margin: 84px 0 0 0;
+    margin: 84px 0 60px 0;
   }
 
   h1 {
@@ -166,6 +166,6 @@ main {
   }
 
   main {
-    margin: 67px 0 0 0;
+    margin: 67px 0 60px 0;
   }
 }

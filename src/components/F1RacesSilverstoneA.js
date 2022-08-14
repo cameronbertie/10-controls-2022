@@ -37,9 +37,17 @@ export default function F1RacesMelbourneA () {
         <F1RaceResult teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" constructorName="Aston Martin" driverName="Counterfeit" driverFlag="/gb.png" driverInterval="+1:25.274" driverFastLap="1:29.531" driverGrid="6" driverPosition="16" driverPoints="0" arrow="fa-solid fa-angle-down"/>
         <F1RaceResult teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" constructorName="Alpine" driverName="Joram" driverFlag="/nl.png" driverInterval="DNF" driverFastLap="1:30.196" driverGrid="9" driverPosition="-" driverPoints="0" arrow="fa-solid fa-angle-down"/>
         <F1RaceResult teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" constructorName="Mclaren" driverName="iM3j3n" driverFlag="/de.png" driverInterval="DNF" driverFastLap="1:30.616" driverGrid="2" driverPosition="-" driverPoints="0" arrow="fa-solid fa-angle-down"/>
-        <F1RaceResult teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" constructorName="Mercedes" driverName="Uppsey" driverFlag="/it.png" driverInterval="DNF" driverFastLap="1:33.260" driverGrid="1" driverPosition="-" driverPoints="0" />
+        <F1RaceResult teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" constructorName="Mercedes" driverName="Uppsey" driverFlag="/it.png" driverInterval="DNF" driverFastLap="1:33.260" driverGrid="" driverPosition="-" driverPoints="0" />
         <F1RaceResult teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" constructorName="Haas" driverName="Flaw" driverFlag="/nl.png" driverInterval="DNF" driverFastLap="1:32.308" driverGrid="7" driverPosition="-" driverPoints="0" arrow="fa-solid fa-angle-down" />
         </table>
+        <div className="driver-day-container">
+          <div>
+            <h4>Driver of the day</h4>
+          </div>
+          <div>
+          <h3>Newman</h3>
+          </div>
+        </div>
     </div>
   )
 }

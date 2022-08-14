@@ -11,6 +11,7 @@ import RLMain from './components/RLMain'
 import F1RacesMelbourneA from './components/F1RacesMelbourneA'
 import F1RacesMelbourneB from './components/F1RacesMelbourneB'
 import F1RacesSilverstoneA from './components/F1RacesSilverstoneA'
+import F1RacesSilverstoneB from './components/F1RacesSilverstoneB'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App () {
@@ -28,6 +29,7 @@ function App () {
             <Route path="/f1/races/tier-a/melbourne" element={<F1RacesMelbourneA />} />
             <Route path="/f1/races/tier-b/melbourne" element={<F1RacesMelbourneB />} />
             <Route path="/f1/races/tier-a/silverstone" element={<F1RacesSilverstoneA />} />
+            <Route path="/f1/races/tier-b/silverstone" element={<F1RacesSilverstoneB />} />
             <Route path="/f1/register" element={<F1Register />} />
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />
