@@ -15,7 +15,7 @@ export default function F1RacesTierB () {
   races.push({ id: 7, name: 'Hungaroring', date: new Date(2022, 8, 17).getTime(), flag: '/hu.png' })
   races.push({ id: 8, name: 'Miami', date: new Date(2022, 8, 24).getTime(), flag: '/us.png' })
   races.push({ id: 9, name: 'Mexico', date: new Date(2022, 9, 1).getTime(), flag: '/mx.png' })
-  races.push({ id: 10, name: 'Imola', date: new Date(2022, 9, 8).getTime(), flag: '/it.png' })
+  races.push({ id: 10, name: 'Imola (Sprint)', date: new Date(2022, 9, 8).getTime(), flag: '/it.png' })
   races.push({ id: 11, name: 'Barcelona', date: new Date(2022, 9, 15).getTime(), flag: '/es.png' })
   races.push({ id: 12, name: 'Suzuka', date: new Date(2022, 9, 22).getTime(), flag: '/jp.png' })
   races.push({ id: 13, name: 'Montreal', date: new Date(2022, 9, 29).getTime(), flag: '/ca.png' })
