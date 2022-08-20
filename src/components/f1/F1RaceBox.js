@@ -1,6 +1,6 @@
 import React from 'react'
-import '../App.css'
-import '../stylesheets/F1RaceBox.css'
+import '../../App.css'
+import '../../stylesheets/F1RaceBox.css'
 import PropTypes from 'prop-types'
 import dayjs from 'dayjs'
 import advancedFormat from 'dayjs/plugin/advancedFormat'
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 dayjs.extend(advancedFormat)
 
-export default function F1RaceBoxComplete (props) {
+export default function F1RaceBox (props) {
   const dayObject = dayjs(props.raceDate)
   const dayString = dayObject.format('D')
   const ordinalDay = dayObject.format('Do').slice(-2)
@@ -18,15 +18,18 @@ export default function F1RaceBoxComplete (props) {
       <div className="race-box-content">
         <div className="race-box-title">{props.raceName}</div>
         <div className="race-box-date">{dayString}<sup>{ordinalDay}</sup> {dateString}</div>
-        <Link to={props.raceLink}><button className="race-box-button">View Results</button></Link>
+        <br></br>
+        <div className="race-box-date">Practice Lobby Opens at 18:00 BST</div>
+        <br></br>
+        <div className="race-box-date">Race Starts at 19:30 BST</div>
+        <Link to="/f1/register"><button className="race-box-button">Register Now</button></Link>
       </div>
     </div>
   )
 }
 
-F1RaceBoxComplete.propTypes = {
+F1RaceBox.propTypes = {
   raceName: PropTypes.string.isRequired,
   raceDate: PropTypes.number.isRequired,
-  raceFlag: PropTypes.string.isRequired,
-  raceLink: PropTypes.string.isRequired
+  raceFlag: PropTypes.string.isRequired
 }

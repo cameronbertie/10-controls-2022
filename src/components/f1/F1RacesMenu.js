@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../App.css'
-import '../stylesheets/F1RacesMenu.css'
+import '../../App.css'
+import '../../stylesheets/F1RacesMenu.css'
 import F1RacesTierA from './F1RacesTierA'
 import F1RacesTierB from './F1RacesTierB'
 

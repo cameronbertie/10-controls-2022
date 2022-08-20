@@ -1,6 +1,6 @@
 import React from 'react'
-import '../App.css'
-import '../stylesheets/F1RaceFormat.css'
+import '../../App.css'
+import '../../stylesheets/F1RaceFormat.css'
 
 function F1RaceFormat () {
   return (

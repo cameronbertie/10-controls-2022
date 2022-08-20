@@ -1,30 +1,29 @@
 import React from 'react'
-import '../App.css'
-import '../stylesheets/F1RacesTier.css'
+import '../../App.css'
+import '../../stylesheets/F1RacesTier.css'
 import F1RaceBox from './F1RaceBox'
 import F1RaceBoxComplete from './F1RaceBoxComplete'
 
-export default function F1RacesTierB () {
+export default function F1RacesTierA () {
   const races = [
   ]
-
-  races.push({ id: 3, name: 'Spa-Francorchamps', date: new Date(2022, 7, 20).getTime(), flag: '/be.png' })
-  races.push({ id: 4, name: 'Jeddah', date: new Date(2022, 7, 27).getTime(), flag: '/sa.png' })
-  races.push({ id: 5, name: 'Zandvoort', date: new Date(2022, 8, 3).getTime(), flag: '/nl.png' })
-  races.push({ id: 6, name: 'Monza (Sprint)', date: new Date(2022, 8, 10).getTime(), flag: '/it.png' })
-  races.push({ id: 7, name: 'Hungaroring', date: new Date(2022, 8, 17).getTime(), flag: '/hu.png' })
-  races.push({ id: 8, name: 'Miami', date: new Date(2022, 8, 24).getTime(), flag: '/us.png' })
-  races.push({ id: 9, name: 'Mexico', date: new Date(2022, 9, 1).getTime(), flag: '/mx.png' })
-  races.push({ id: 10, name: 'Imola (Sprint)', date: new Date(2022, 9, 8).getTime(), flag: '/it.png' })
-  races.push({ id: 11, name: 'Barcelona', date: new Date(2022, 9, 15).getTime(), flag: '/es.png' })
-  races.push({ id: 12, name: 'Suzuka', date: new Date(2022, 9, 22).getTime(), flag: '/jp.png' })
-  races.push({ id: 13, name: 'Montreal', date: new Date(2022, 9, 29).getTime(), flag: '/ca.png' })
-  races.push({ id: 14, name: 'Bahrain (Sprint)', date: new Date(2022, 10, 5).getTime(), flag: '/bh.png' })
-  races.push({ id: 15, name: 'Yas Marina', date: new Date(2022, 10, 12).getTime(), flag: '/ae.png' })
+  races.push({ id: 4, name: 'Jeddah', date: new Date(2022, 7, 26).getTime(), flag: '/sa.png' })
+  races.push({ id: 5, name: 'Zandvoort', date: new Date(2022, 8, 2).getTime(), flag: '/nl.png' })
+  races.push({ id: 6, name: 'Monza (Sprint)', date: new Date(2022, 8, 9).getTime(), flag: '/it.png' })
+  races.push({ id: 7, name: 'Hungaroring', date: new Date(2022, 8, 16).getTime(), flag: '/hu.png' })
+  races.push({ id: 8, name: 'Miami', date: new Date(2022, 8, 23).getTime(), flag: '/us.png' })
+  races.push({ id: 9, name: 'Mexico', date: new Date(2022, 8, 30).getTime(), flag: '/mx.png' })
+  races.push({ id: 10, name: 'Imola (Sprint)', date: new Date(2022, 9, 7).getTime(), flag: '/it.png' })
+  races.push({ id: 11, name: 'Barcelona', date: new Date(2022, 9, 14).getTime(), flag: '/es.png' })
+  races.push({ id: 12, name: 'Suzuka', date: new Date(2022, 9, 21).getTime(), flag: '/jp.png' })
+  races.push({ id: 13, name: 'Montreal', date: new Date(2022, 9, 28).getTime(), flag: '/ca.png' })
+  races.push({ id: 14, name: 'Bahrain (Sprint)', date: new Date(2022, 10, 4).getTime(), flag: '/bh.png' })
+  races.push({ id: 15, name: 'Yas Marina', date: new Date(2022, 10, 11).getTime(), flag: '/ae.png' })
   return (
     <div className="race-tier-container">
-      <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 6).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-b/melbourne"/>
-      <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 13).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-b/silverstone"/>
+      <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 5).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-a/melbourne"/>
+      <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 12).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-a/silverstone"/>
+      <F1RaceBoxComplete raceName="Spa-Francorchamps" raceDate={new Date(2022, 7, 19).getTime()} raceFlag="/be.png" raceLink="/f1/races/tier-a/spa-francorchamps"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}

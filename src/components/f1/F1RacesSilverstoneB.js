@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheets/F1ResultsPage.css'
+import '../../stylesheets/F1ResultsPage.css'
 import F1RaceResult from './F1RaceResult'
 
 export default function F1RacesMelbourneB () {

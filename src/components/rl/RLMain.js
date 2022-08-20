@@ -1,11 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import '../App.css'
-import '../stylesheets/F1Main.css'
-import SecondaryNav from './SecondaryNav'
-import F1RaceFormat from './F1RaceFormat'
-import F1TierGrid from './F1TierGrid'
-import F1NextRace from './F1NextRace'
+import '../../App.css'
+import '../../stylesheets/F1Main.css'
 
 function RLMain () {
   return (

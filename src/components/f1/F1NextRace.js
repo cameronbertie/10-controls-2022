@@ -1,6 +1,6 @@
 import React from 'react'
-import '../App.css'
-import '../stylesheets/F1NextRace.css'
+import '../../App.css'
+import '../../stylesheets/F1NextRace.css'
 import { Link } from 'react-router-dom'
 
 function F1NextRace () {

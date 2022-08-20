@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../App.css'
-import '../stylesheets/F1Standings.css'
+import '../../App.css'
+import '../../stylesheets/F1Standings.css'
 import F1DriversA from './F1DriversA'
 import F1ConstructorsA from './F1ConstructorsA'
 import F1DriversB from './F1DriversB'

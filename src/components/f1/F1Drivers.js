@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import '../App.css'
-import '../stylesheets/F1Drivers.css'
+import '../../App.css'
+import '../../stylesheets/F1Drivers.css'
 import F1Team from './F1Team'
 
 export default function F1Drivers () {
