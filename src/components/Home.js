@@ -21,7 +21,7 @@ export default function Home () {
 </div>
 </Link>
 <div className="featured-section-container">
-<Link to="rl" className="featured-content">
+<Link to="rl/tournaments" className="featured-content">
 <img className="featured-image-box" src="/rocket-league-feature.png"/>
 <h2>Rocket League Tournaments Have Returned To 10 Controls</h2>
 {/* <a className="featured-link">Watch now</a> */}
