@@ -9,6 +9,7 @@ import F1Register from './components/f1/F1Register'
 import F1Drivers from './components/f1/F1Drivers'
 import F1Standings from './components/f1/F1Standings'
 import RLMain from './components/rl/RLMain'
+import RLTournaments from './components/rl/RLTournaments'
 import F1RacesMelbourneA from './components/f1/F1RacesMelbourneA'
 import F1RacesMelbourneB from './components/f1/F1RacesMelbourneB'
 import F1RacesSilverstoneA from './components/f1/F1RacesSilverstoneA'
@@ -38,6 +39,7 @@ function App () {
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />
             <Route path="/rl" element={<RLMain />} />
+            <Route path="/rl/tournaments" element={<RLTournaments />} />
           </Routes>
         </main>
       </div>
