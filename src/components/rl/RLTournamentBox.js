@@ -4,7 +4,7 @@ import '../../stylesheets/RLRaceBox.css'
 import PropTypes from 'prop-types'
 import dayjs from 'dayjs'
 import advancedFormat from 'dayjs/plugin/advancedFormat'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 dayjs.extend(advancedFormat)
 
@@ -27,8 +27,7 @@ export default function RLTournamentBox (props) {
         <div className="tournament-box-date">{props.tournamentPrize}</div>
         <br></br>
         <div className="tournament-box-date">{weekDay}, {dayString}<sup>{ordinalDay}</sup> {dateString}<br></br>19:30 UK TIME</div>
-        {/* <Link to={props.detailsLink}><button className="tournament-box-button">Find out More</button></Link> */}
-        <button className="tournament-box-button">More Details Coming Soon</button>
+        <Link to={props.detailsLink}><button className="tournament-box-button">Find out More</button></Link>
       </div>
     </div>
   )

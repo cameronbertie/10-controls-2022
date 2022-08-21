@@ -10,6 +10,8 @@ import F1Drivers from './components/f1/F1Drivers'
 import F1Standings from './components/f1/F1Standings'
 import RLMain from './components/rl/RLMain'
 import RLTournaments from './components/rl/RLTournaments'
+import RLQualifier from './components/rl/RLQualifier'
+import RLPlayoffs from './components/rl/RLPlayoffs'
 import F1RacesMelbourneA from './components/f1/F1RacesMelbourneA'
 import F1RacesMelbourneB from './components/f1/F1RacesMelbourneB'
 import F1RacesSilverstoneA from './components/f1/F1RacesSilverstoneA'
@@ -40,6 +42,10 @@ function App () {
             <Route path="/f1/standings" element={<F1Standings />} />
             <Route path="/rl" element={<RLMain />} />
             <Route path="/rl/tournaments" element={<RLTournaments />} />
+            <Route path="/rl/tournaments/autumn/qualifier-event-1" element={<RLQualifier tournamentName="QUALIFIER EVENT 1 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 1ST SEPTEMBER 2022"/>} />
+            <Route path="/rl/tournaments/autumn/qualifier-event-2" element={<RLQualifier tournamentName="QUALIFIER EVENT 2 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 29th SEPTEMBER 2022"/>} />
+            <Route path="/rl/tournaments/autumn/qualifier-event-3" element={<RLQualifier tournamentName="QUALIFIER EVENT 3 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 27th October 2022"/>} />
+            <Route path="/rl/tournaments/autumn/playoffs" element={<RLPlayoffs tournamentName="Playoffs - AUTUMN" tournamentPrize="$60" tournamentDate="THURSDAY, 24th November 2022" />} />
           </Routes>
         </main>
       </div>
