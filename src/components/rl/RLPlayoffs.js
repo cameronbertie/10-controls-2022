@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import '../../stylesheets/F1Main.css'
 import '../../stylesheets/RLTournament.css'
 import HeroImage from '../HeroImage'
+import { Link } from 'react-router-dom'
 
 function RLPlayoffs (props) {
   return (
@@ -20,7 +21,7 @@ function RLPlayoffs (props) {
   <h4 style={{ textTransform: 'none' }}>TEAM SIZE: 1v1</h4>
   <h4>Region: Europe</h4>
   <br></br>
-  <div><button>Registration Opens Soon</button></div>
+  <Link to="/rl/register"><button>REGISTER NOW</button></Link>
   <h6>This tournament is not affiliated with or sponsored by Psyonix LLC or Rocket League Esports</h6>
 </div>
 <hr className="tournament-hr"></hr>
@@ -75,7 +76,7 @@ function RLPlayoffs (props) {
   <h4>Semi Finals - DFH Stadium</h4>
   <h4>Grand Final - Champions Field</h4>
 </div>
-<div style={{ textAlign: 'center' }}><button>Registration Opens Soon</button></div>
+<div style={{ textAlign: 'center' }}><Link to="/rl/register"><button>REGISTER NOW</button></Link></div>
 </div>
 </>
   )

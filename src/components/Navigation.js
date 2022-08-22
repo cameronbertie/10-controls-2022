@@ -55,7 +55,7 @@ export default function Navigation () {
                       <div className="category-subheading"><Link to="/rl/tournaments" className="category-item">Tournaments</Link></div>
                       </div>
                       <div className="category-list">
-                      <div className="category-subheading"><Link to="rl/tournaments" className="category-item">Register</Link></div>
+                      <div className="category-subheading"><Link to="rl/register" className="category-item">Register</Link></div>
                       </div>
                       <div className="category-list">
                       <div className="category-subheading"><a href="https://rlcsle.com/" target="_blank" rel="noreferrer" className="category-item">Wordle For Rocket League</a></div>
