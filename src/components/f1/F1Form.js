@@ -67,13 +67,13 @@ export default function F1Form () {
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Name"
+            placeholder="Player ID"
             required
           />
           <input
             value={steamCode}
             onChange={(e) => setSteamCode(e.target.value)}
-            placeholder="Steam Code"
+            placeholder="Platform"
             required
           />
           <input
