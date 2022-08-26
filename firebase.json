@@ -4,6 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "target": "10controls",
     "public": "build",
     "ignore": [
       "firebase.json",
