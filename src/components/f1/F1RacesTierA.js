@@ -7,7 +7,6 @@ import F1RaceBoxComplete from './F1RaceBoxComplete'
 export default function F1RacesTierA () {
   const races = [
   ]
-  races.push({ id: 4, name: 'Jeddah', date: new Date(2022, 7, 26).getTime(), flag: '/sa.png' })
   races.push({ id: 5, name: 'Zandvoort', date: new Date(2022, 8, 2).getTime(), flag: '/nl.png' })
   races.push({ id: 6, name: 'Monza (Sprint)', date: new Date(2022, 8, 9).getTime(), flag: '/it.png' })
   races.push({ id: 7, name: 'Hungaroring', date: new Date(2022, 8, 16).getTime(), flag: '/hu.png' })
@@ -24,6 +23,7 @@ export default function F1RacesTierA () {
       <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 5).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-a/melbourne"/>
       <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 12).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-a/silverstone"/>
       <F1RaceBoxComplete raceName="Spa-Francorchamps" raceDate={new Date(2022, 7, 19).getTime()} raceFlag="/be.png" raceLink="/f1/races/tier-a/spa-francorchamps"/>
+      <F1RaceBoxComplete raceName="Jeddah" raceDate={new Date(2022, 7, 26).getTime()} raceFlag="/sa.png" raceLink="/f1/races/tier-a/jeddah"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}
