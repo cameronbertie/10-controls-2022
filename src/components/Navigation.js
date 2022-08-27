@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import logo from '../svg/logo.svg'
 import discordLogo from '../svg/discord-logo.svg'
+import instaLogo from '../svg/instagram-logo.svg'
+import twitterLogo from '../svg/twitter-logo.svg'
 // import Menu from './Menu'
 import '../stylesheets/Menu.css'
 import '../stylesheets/Navigation.css'
@@ -94,18 +96,30 @@ export default function Navigation () {
         </div>
       </nav>
       <nav className="side-nav side-nav-left">
-      <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer">
+      {/* <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer">
         <div className="discord-container discord-logo-container-left">
           <img className="discord-logo" src={discordLogo} alt="Discord Logo" />
         </div>
-        </a>
+        </a> */}
       </nav>
       <nav className="side-nav side-nav-right">
+        <div className="social-icons-container">
       <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer">
         <div className="discord-container discord-logo-container-right">
           <img className="discord-logo" src={discordLogo} alt="Discord Logo" />
         </div>
         </a>
+        <a href="https://www.instagram.com/10controls/" target="_blank" rel="noreferrer">
+        <div className="discord-container discord-logo-container-right">
+          <img className="discord-logo" src={instaLogo} alt="Instagram Logo" />
+        </div>
+        </a>
+        <a href="https://twitter.com/10Controls" target="_blank" rel="noreferrer">
+        <div className="discord-container discord-logo-container-right">
+          <img className="discord-logo" src={twitterLogo} alt="Twitter Logo" />
+        </div>
+        </a>
+        </div>
       </nav>
     </>
   )

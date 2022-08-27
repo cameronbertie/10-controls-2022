@@ -27,7 +27,7 @@ export default function F1Form () {
   const f1EntryRef = firestore.collection('f1-entry')
 
   const [name, setName] = useState('')
-  const [steamCode, setSteamCode] = useState('')
+  const [platform, setPlatform] = useState('')
   const [discordTag, setDiscordTag] = useState('')
   const [preferredDriverNumber, setPreferredDriverNumber] = useState('')
   const [nationality, setNationality] = useState('')
@@ -38,14 +38,14 @@ export default function F1Form () {
     e.preventDefault()
     await f1EntryRef.add({
       name,
-      steam_code: steamCode,
+      platform,
       discord_tag: discordTag,
       preferred_driver_number: preferredDriverNumber,
       nationality
     })
 
     setName('')
-    setSteamCode('')
+    setPlatform('')
     setDiscordTag('')
     setPreferredDriverNumber('')
     setNationality('')
@@ -70,9 +70,10 @@ export default function F1Form () {
             placeholder="Player ID"
             required
           />
+          <img src="/f1-game-name.jpg"/>
           <input
-            value={steamCode}
-            onChange={(e) => setSteamCode(e.target.value)}
+            value={platform}
+            onChange={(e) => setPlatform(e.target.value)}
             placeholder="Platform"
             required
           />

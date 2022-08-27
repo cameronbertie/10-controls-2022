@@ -2,6 +2,8 @@ import React from 'react'
 import '../App.css'
 import '../stylesheets/Home.css'
 import UpcomingEvents from './UpcomingEvents'
+import LatestVideos from './LatestVideos'
+import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
 export default function Home () {
@@ -36,6 +38,10 @@ export default function Home () {
 </div>
 <div className="page-content-full">
 <UpcomingEvents />
+</div>
+<div className="page-content">
+  <LatestVideos />
+<Footer />
 </div>
 </div>
   )

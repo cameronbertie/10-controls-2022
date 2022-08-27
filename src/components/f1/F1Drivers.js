@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../../App.css'
 import '../../stylesheets/F1Drivers.css'
 import F1Team from './F1Team'
+import Footer from '../Footer'
 
 export default function F1Drivers () {
   const [selectedDivision, setSelectedDivision] = useState('Tier A')
@@ -17,7 +18,7 @@ export default function F1Drivers () {
     {selectedDivision === 'Tier A'
       ? <>
           <F1Team teamColor="#6CD3BF" teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" teamName="Mercedes" driver1Name="Mute" driver1Number="53" driver1Flag="/ng.png" driver2Name="Eddyworth" driver2Number="67" driver2Flag="/fr.png" />
-          <F1Team teamColor="#3671C6" teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" teamName="Red Bull" driver1Name="ThomasVink" driver1Number="8" driver1Flag="/nl.png" driver2Name="Jesse" driver2Number="69" driver2Flag="/nl.png" />
+          <F1Team teamColor="#3671C6" teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" teamName="Red Bull" driver1Name="ThomasVink" driver1Number="8" driver1Flag="/nl.png" driver2Name="Hailee" driver2Number="69" driver2Flag="/nl.png" />
           <F1Team teamColor="#F91536" teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" teamName="Ferrari" driver1Name="Newman" driver1Number="16" driver1Flag="/it.png" driver2Name="Cortes" driver2Number="44" driver2Flag="/es.png" />
           <F1Team teamColor="#F58020" teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" teamName="Mclaren" driver1Name="Im3j3n" driver1Number="13" driver1Flag="/de.png" driver2Name="Kudos" driver2Number="35" driver2Flag="/de.png" />
           <F1Team teamColor="#2293D1" teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" teamName="Alpine" driver1Name="Nik Kei" driver1Number="4" driver1Flag="/ua.png" driver2Name="Faded" driver2Number="30" driver2Flag="/us.png" />
@@ -41,6 +42,7 @@ export default function F1Drivers () {
           </>
         }
     </div>
+    <Footer />
     </div>
     </>
   )

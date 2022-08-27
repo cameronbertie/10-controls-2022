@@ -5,6 +5,7 @@ import F1DriversA from './F1DriversA'
 import F1ConstructorsA from './F1ConstructorsA'
 import F1DriversB from './F1DriversB'
 import F1ConstructorsB from './F1ConstructorsB'
+import Footer from '../Footer'
 
 export default function F1Standings () {
   const [selectedDivision, setSelectedDivision] = useState('Tier A')
@@ -38,6 +39,7 @@ export default function F1Standings () {
        <F1ConstructorsB />
         }
     </div>
+    <Footer />
     </div>
     </>
   )

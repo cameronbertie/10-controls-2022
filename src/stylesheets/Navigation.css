@@ -96,16 +96,24 @@
   position: absolute;
   left: 0;
   top: 84px;
+  flex-direction: row;
 }
 
 .side-nav-right {
   border-left: 1px solid #492833;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   position: absolute;
   right: 0;
   top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-bottom: 30px;
 }
 
 .discord-container {
@@ -121,14 +129,9 @@
   padding-bottom: 30px;
 }
 
-.discord-logo-container-right {
-  padding-top: 30px;
-  margin-bottom: 30px;
-}
-
 .discord-logo {
   height: auto;
-  width: 46px;
+  width: 32px;
 }
 
 /* If the screen size is 1023px wide or less, hide the element */

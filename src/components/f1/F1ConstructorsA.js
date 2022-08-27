@@ -5,7 +5,7 @@ import '../../stylesheets/F1Standings.css'
 export default function F1ConstructorsA () {
   return (
     <div className="drivers-list">
-        <F1ConstructorStanding teamColor="#f91536" teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" constructorName="Ferrari" constructorPosition="1" constructorPoints="110" />
+      <F1ConstructorStanding teamColor="#F91536" teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" constructorName="Ferrari" constructorPosition="1" constructorPoints="110" />
         <F1ConstructorStanding teamColor="#37BEDD" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" constructorName="Williams" constructorPosition="2" constructorPoints="52" />
         <F1ConstructorStanding teamColor="#2293D1" teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" constructorName="Alpine" constructorPosition="3" constructorPoints="49" />
         <F1ConstructorStanding teamColor="#F58020" teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" constructorName="Mclaren" constructorPosition="4" constructorPoints="39" />

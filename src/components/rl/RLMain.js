@@ -2,6 +2,7 @@
 import React from 'react'
 import '../../App.css'
 import '../../stylesheets/F1Main.css'
+import Footer from '../Footer'
 
 function RLMain () {
   return (
@@ -20,6 +21,7 @@ function RLMain () {
 <br></br>
 <h3>Watch This Space For More Information On How to register</h3>
 </div>
+<Footer />
 </div>
 {/* <div className="page-content-full">
 <F1NextRace />

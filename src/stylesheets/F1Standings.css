@@ -85,7 +85,7 @@ height: 42px;
 }
 
 .flag-number-container-2 {
-    width: 75px;
+    width: 90px;
     display: flex;
     column-gap: 20px;
     justify-content: space-between;
@@ -105,6 +105,12 @@ height: 42px;
     height: 42px;
     width: 62px;
     border-radius: 10px;
+}
+
+.standing-separator {
+        border-top: 3px solid white;
+        width: 100%;
+        background-color: white;
 }
 
 /* If the screen size is 1023px wide or less, hide the element */

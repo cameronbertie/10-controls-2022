@@ -1,6 +1,7 @@
 import React from 'react'
 
 import RLForm from './RLForm'
+import Footer from '../Footer'
 
 export default function RLRegister () {
   return (
@@ -8,6 +9,7 @@ export default function RLRegister () {
 <div className="page-content">
 <h1 className="page-content-heading">Register Now</h1>
     <RLForm />
+    <Footer />
 </div>
 </>
   )

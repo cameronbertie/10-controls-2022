@@ -22,9 +22,14 @@ export default function F1DriversA () {
         <F1DriverStanding teamColor="#F91536" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" constructorName="Williams" driverName="LawrenceSelling" driverFlag="/ph.png" driverPosition="15" driverPoints="2" />
         <F1DriverStanding teamColor="#F91536" teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" constructorName="Mercedes" driverName="Mute" driverFlag="/ng.png" driverPosition="16" driverPoints="1" />
         <F1DriverStanding teamColor="#F91536" teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" constructorName="Mclaren" driverName="iM3j3n" driverFlag="/de.png" driverPosition="17" driverPoints="0" />
+        <div>
+          <h5>Demotion to tier b</h5>
+        <hr className="standing-separator"></hr>
+        </div>
         <F1DriverStanding teamColor="#F91536" teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" constructorName="Red Bull" driverName="Hailee" driverFlag="/nl.png" driverPosition="18" driverPoints="0" />
         <F1DriverStanding teamColor="#F91536" teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" constructorName="AlphaTauri" driverName="Kyan" driverFlag="/nl.png" driverPosition="19" driverPoints="0" />
         <F1DriverStanding teamColor="#F91536" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" constructorName="Haas" driverName="Flaw" driverFlag="/nl.png" driverPosition="20" driverPoints="0" />
+        <hr className="standing-separator"></hr>
     </div>
   )
 }

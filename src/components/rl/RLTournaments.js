@@ -4,6 +4,7 @@ import '../../App.css'
 import '../../stylesheets/F1Main.css'
 import HeroImage from '../HeroImage'
 import RLTournamentBox from './RLTournamentBox'
+import Footer from '../Footer'
 
 function F1Races () {
   return (
@@ -18,6 +19,7 @@ function F1Races () {
 <RLTournamentBox tournamentName="QUALIFIER EVENT 3" tournamentDate={new Date(2022, 9, 27).getTime()} tournamentPrize="$25 USD Prize Pool" detailsLink="/rl/tournaments/autumn/qualifier-event-3"/>
 <RLTournamentBox tournamentName="PLAYOFFS" tournamentDate={new Date(2022, 10, 24).getTime()} tournamentPrize="$60 USD Prize Pool" detailsLink="/rl/tournaments/autumn/playoffs"/>
 </div>
+<Footer />
 </div>
 </>
   )

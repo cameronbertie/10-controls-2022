@@ -4,8 +4,10 @@ import '../../App.css'
 import '../../stylesheets/F1Main.css'
 import SecondaryNav from '../SecondaryNav'
 import F1RaceFormat from './F1RaceFormat'
-import F1TierGrid from './F1TierGrid'
-import F1NextRace from './F1NextRace'
+import F1TierGrid from '../rl/F1TierGrid'
+import F1Prize from './F1Prize'
+import LatestVideos from '../LatestVideos'
+import Footer from '../Footer'
 
 function F1Main () {
   return (
@@ -23,7 +25,11 @@ function F1Main () {
 <F1TierGrid />
 </div>
 <div className="page-content-full">
-<F1NextRace />
+<F1Prize />
+</div>
+<div className="page-content">
+  <LatestVideos />
+<Footer/>
 </div>
 </>
   )
