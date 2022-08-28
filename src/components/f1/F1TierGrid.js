@@ -10,14 +10,24 @@ function F1TierGrid () {
   <div className="left-grid grid">
     <div className="grid-heading">Tier A</div>
     <div className="grid-subheading">Season 1</div>
-    <div className="grid-text">Every Friday at 19:30 BST</div>
+    <div className="grid-text">Every Friday</div>
+    <div className="grid-text">19:30 BST</div>
     <Link to='/f1/register'><button className="grid-button">Register Now</button></Link>
   </div>
   <div className="right-grid grid">
 
   <div className="grid-heading">Tier B</div>
     <div className="grid-subheading">Season 1</div>
-    <div className="grid-text">Every Saturday at 19:30 BST</div>
+    <div className="grid-text">Every Saturday</div>
+    <div className="grid-text">19:30 BST</div>
+    <Link to='/f1/register'><button className="grid-button">Register Now</button></Link>
+  </div>
+  <div className="right-grid grid">
+
+  <div className="grid-heading">Tier C</div>
+    <div className="grid-subheading">Season 1</div>
+    <div className="grid-text">Every Saturday</div>
+    <div className="grid-text">17:30 BST</div>
     <Link to='/f1/register'><button className="grid-button">Register Now</button></Link>
   </div>
 </section>

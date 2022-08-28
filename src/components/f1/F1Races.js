@@ -2,7 +2,7 @@
 import React from 'react'
 import '../../App.css'
 import '../../stylesheets/F1Main.css'
-import F1TierGrid from '../rl/F1TierGrid'
+import F1TierGrid from './F1TierGrid'
 import F1RacesMenu from './F1RacesMenu'
 import Footer from '../Footer'
 

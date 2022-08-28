@@ -1,13 +1,14 @@
-.tier-grid-container {
+.tier-grid-container-2 {
     display: flex;
     column-gap: 24px;
     row-gap: 24px;
     padding: 60px 0;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.grid {
+.button-box {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,23 +16,33 @@
     padding: 60px;
     text-align: center;
     height: auto;
-    width: 33.3%;
+    width: 428px;
 }
 
-.left-grid{
+.left-grid-2{
     background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-1.jpg");
 }
 
-.right-grid{
+.right-grid-2{
     background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-2.jpg");
+}
+
+.left-grid-2:hover{
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 100%), url("/public/f1-ferrari-screenshot-1.jpg");
+    transition: 0.3s;
+}
+
+.right-grid-2:hover{
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 100%), url("/public/f1-ferrari-screenshot-2.jpg");
+    transition: 0.3s;
 }
 
 .grid-content {
     width: 50%;
 }
 
-.grid-heading {
-    font-size: 60px;
+.access-heading {
+    font-size: 32px;
     color: black;
 }
 
@@ -67,11 +78,11 @@
 
  /* If the screen size is 1420px wide or less, hide the element */
  @media only screen and (max-width: 1425px) {
-    .tier-grid-container {
+    .tier-grid-container-2 {
         flex-wrap: wrap;
     }
 
-    .grid {
+    .button-box {
         width: 100%;
     }
   }
@@ -79,8 +90,8 @@
   /* If the screen size is 1023px wide or less, hide the element */
 @media only screen and (max-width: 1023px) {
     
-    .grid-heading {
-        font-size: 60px;
+    .access-heading {
+        font-size: 32px;
     }
     
     .grid-subheading {

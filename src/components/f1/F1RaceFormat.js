@@ -8,15 +8,11 @@ function F1RaceFormat () {
       <section className="race-format-container">
   <h2>The Format</h2>
   <br></br>
-  <p>THERE WILL BE TWO TIERS - TIER A AND TIER B</p>
+  <h4>THREE TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM</h4>
   <br></br>
-  <p>Both Tiers will run the same weekly scheduled races, for a total of 15 races every season, each race being short qualifying followed by a 50% race, except from sprint races.</p>
+  <h4>WEEKLY SCHEDULED RACES FOR ALL THREE TIERS</h4>
   <br></br>
-  <h3>At the end of every season,</h3>
-  <br></br>
-  <p>The bottom 3 drivers of Tier A will be demoted to Tier B, and will be replaced by the top 3 drivers of Tier B.</p>
-  <br></br>
-  <p>The bottom 5 of Tier B will have to take part in a series of race qualifiers against aspiring reserves to fight for their permanent seat on the grid.</p>
+  <h4>50% RACE WITH SHORT QUALIFYING</h4>
 </section>
 </>
   )

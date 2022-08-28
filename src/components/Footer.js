@@ -1,5 +1,7 @@
 import React from 'react'
 import '../App.css'
+import youtubeLogo from '../svg/youtube-logo.svg'
+import twitchLogo from '../svg/twitch-logo.svg'
 import discordLogo from '../svg/discord-logo.svg'
 import instaLogo from '../svg/instagram-logo.svg'
 import twitterLogo from '../svg/twitter-logo.svg'
@@ -12,6 +14,16 @@ export default function Footer () {
       <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer">
         <div className="discord-container discord-logo-container-right">
           <img className="footer-social" src={discordLogo} alt="Discord Logo" />
+        </div>
+        </a>
+        <a href="https://www.twitch.tv/10controlstv" target="_blank" rel="noreferrer">
+        <div className="discord-container discord-logo-container-right">
+          <img className="footer-social" src={twitchLogo} alt="Twitch Logo" />
+        </div>
+        </a>
+        <a href="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg" target="_blank" rel="noreferrer">
+        <div className="discord-container discord-logo-container-right">
+          <img className="footer-social" src={youtubeLogo} alt="YouTube Logo" />
         </div>
         </a>
         <a href="https://www.instagram.com/10controls/" target="_blank" rel="noreferrer">
