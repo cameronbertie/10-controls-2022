@@ -8,15 +8,15 @@ function F1MainButtons () {
     <>
     <section className="tier-grid-container-2">
 
-    <Link to='/f1/register' className="right-grid-2 button-box">
+    <Link to='/f1/races' className="right-grid-2 button-box">
     <div className="access-heading">Races</div>
   </Link>
 
-  <Link to='/f1/register' className="left-grid-2 button-box">
+  <Link to='/f1/standings' className="left-grid-2 button-box">
     <div className="access-heading">Standings</div>
   </Link>
 
-  <Link to='/f1/register' className="left-grid-2 button-box">
+  <Link to='/f1/drivers' className="left-grid-2 button-box">
     <div className="access-heading">Drivers</div>
   </Link>
 

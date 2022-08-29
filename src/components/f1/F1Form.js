@@ -70,7 +70,7 @@ export default function F1Form () {
             placeholder="Player ID"
             required
           />
-          <img src="/f1-game-name.jpg"/>
+          <img className="form-image" src="/f1-game-name.jpg"/>
           <input
             value={platform}
             onChange={(e) => setPlatform(e.target.value)}

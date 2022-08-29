@@ -64,7 +64,7 @@ export default function RLForm () {
             required
           />
           <h6 style={{ textAlign: 'left' }}>Your in game name can be found in the bottom left of the Rocket League Main Menu as seen in the image below.</h6>
-          <img src="/rl-in-game-name-2.png"/>
+          <img className="form-image" src="/rl-in-game-name-2.png"/>
           <input
             value={discordTag}
             onChange={(e) => setDiscordTag(e.target.value)}

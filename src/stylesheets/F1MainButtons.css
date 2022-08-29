@@ -21,20 +21,20 @@
 
 .left-grid-2{
     background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-1.jpg");
+
 }
 
 .right-grid-2{
     background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/f1-ferrari-screenshot-2.jpg");
+    
 }
 
 .left-grid-2:hover{
     background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 100%), url("/public/f1-ferrari-screenshot-1.jpg");
-    transition: 0.3s;
 }
 
 .right-grid-2:hover{
     background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 100%), url("/public/f1-ferrari-screenshot-2.jpg");
-    transition: 0.3s;
 }
 
 .grid-content {
