@@ -26,8 +26,7 @@ export default function ACCForm () {
 
   const f1EntryRef = firestore.collection('acc-entry')
 
-  const [name, setName] = useState('')
-  const [platform, setPlatform] = useState('')
+  const [steamFriendCode, setSteamFriendCode] = useState('')
   const [discordTag, setDiscordTag] = useState('')
   const [preferredDriverNumber, setPreferredDriverNumber] = useState('')
   const [preferredCar, setPreferredCar] = useState('')
@@ -38,16 +37,14 @@ export default function ACCForm () {
   const sendSubmission = async (e) => {
     e.preventDefault()
     await f1EntryRef.add({
-      name,
-      platform,
+      steam_friend_code: steamFriendCode,
       discord_tag: discordTag,
       preferred_driver_number: preferredDriverNumber,
       preferred_car: preferredCar,
       nationality
     })
 
-    setName('')
-    setPlatform('')
+    setSteamFriendCode('')
     setDiscordTag('')
     setPreferredDriverNumber('')
     setPreferredCar('')
@@ -68,15 +65,9 @@ export default function ACCForm () {
         {showConfirmation === false
           ? <form onSubmit={sendSubmission}>
           <input
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Player ID"
-            required
-          />
-          <input
-            value={platform}
-            onChange={(e) => setPlatform(e.target.value)}
-            placeholder="Platform"
+            value={steamFriendCode}
+            onChange={(e) => setSteamFriendCode(e.target.value)}
+            placeholder="Steam Friend Code"
             required
           />
           <input

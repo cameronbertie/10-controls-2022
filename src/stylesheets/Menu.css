@@ -18,7 +18,7 @@
     margin: 0 84px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
     align-content: flex-start;
     padding: 60px 8%;
     grid-row-gap: 48px;
