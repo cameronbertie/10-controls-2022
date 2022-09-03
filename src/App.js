@@ -23,6 +23,10 @@ import F1RacesJeddahA from './components/f1/F1RacesJeddahA'
 import F1RacesJeddahB from './components/f1/F1RacesJeddahB'
 import F1RacesZandvoortA from './components/f1/F1RacesZandvoortA'
 import ACCRegister from './components/acc/ACCRegister'
+import Admin from './components/admin/Admin'
+import AdminACC from './components/admin/AdminACC'
+import AdminF1 from './components/admin/AdminF1'
+import AdminRL from './components/admin/AdminRL'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App () {
@@ -58,6 +62,10 @@ function App () {
             <Route path="/rl/tournaments/autumn/qualifier-event-3" element={<RLQualifier tournamentName="QUALIFIER EVENT 3 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 27th October 2022"/>} />
             <Route path="/rl/tournaments/autumn/playoffs" element={<RLPlayoffs tournamentName="Playoffs - AUTUMN" tournamentPrize="$60" tournamentDate="THURSDAY, 24th November 2022" />} />
             <Route path="/acc/register" element={<ACCRegister />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/admin/rl" element={<AdminACC />} />
+            <Route path="/admin/f1" element={<AdminF1 />} />
+            <Route path="/admin/rl" element={<AdminRL />} />
           </Routes>
         </main>
       </div>
