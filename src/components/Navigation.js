@@ -37,6 +37,9 @@ export default function Navigation () {
           <Link to='f1'>
           <div className="main-navigation-link">F1 22</div>
           </Link>
+          <Link to='/acc/register'>
+          <div className="main-navigation-link">ACC</div>
+          </Link>
         </div>
         <div
           className="border-box border-box-right"
@@ -85,6 +88,13 @@ export default function Navigation () {
                       {/* <div className="category-link"><a className="category-item">Tier A</a></div>
                       <div className="category-link"><a className="category-item">Tier B</a></div> */}
                       <div className="category-subheading"><Link to="/f1/register" className="category-item">Register</Link></div>
+                      </div>
+                  </nav>
+                  <nav className="category-content">
+                      <div className="category-heading"><Link to="/acc/register" className="category-item">ACC</Link></div>
+                      <hr className="menu-hr"></hr>
+                      <div className="category-list">
+                      <div className="category-subheading"><Link to="acc/register" className="category-item">Register</Link></div>
                       </div>
                   </nav>
               </div>

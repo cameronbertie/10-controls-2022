@@ -22,6 +22,7 @@ import F1RacesSpaB from './components/f1/F1RacesSpaB'
 import F1RacesJeddahA from './components/f1/F1RacesJeddahA'
 import F1RacesJeddahB from './components/f1/F1RacesJeddahB'
 import F1RacesZandvoortA from './components/f1/F1RacesZandvoortA'
+import ACCRegister from './components/acc/ACCRegister'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App () {
@@ -56,6 +57,7 @@ function App () {
             <Route path="/rl/tournaments/autumn/qualifier-event-2" element={<RLQualifier tournamentName="QUALIFIER EVENT 2 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 29th SEPTEMBER 2022"/>} />
             <Route path="/rl/tournaments/autumn/qualifier-event-3" element={<RLQualifier tournamentName="QUALIFIER EVENT 3 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 27th October 2022"/>} />
             <Route path="/rl/tournaments/autumn/playoffs" element={<RLPlayoffs tournamentName="Playoffs - AUTUMN" tournamentPrize="$60" tournamentDate="THURSDAY, 24th November 2022" />} />
+            <Route path="/acc/register" element={<ACCRegister />} />
           </Routes>
         </main>
       </div>
