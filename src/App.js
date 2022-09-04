@@ -22,6 +22,7 @@ import F1RacesSpaB from './components/f1/F1RacesSpaB'
 import F1RacesJeddahA from './components/f1/F1RacesJeddahA'
 import F1RacesJeddahB from './components/f1/F1RacesJeddahB'
 import F1RacesZandvoortA from './components/f1/F1RacesZandvoortA'
+import F1RacesZandvoortB from './components/f1/F1RacesZandvoortB'
 import ACCRegister from './components/acc/ACCRegister'
 import Admin from './components/admin/Admin'
 import AdminACC from './components/admin/AdminACC'
@@ -51,6 +52,7 @@ function App () {
             <Route path="/f1/races/tier-a/jeddah" element={<F1RacesJeddahA />} />
             <Route path="/f1/races/tier-b/jeddah" element={<F1RacesJeddahB />} />
             <Route path="/f1/races/tier-a/zandvoort" element={<F1RacesZandvoortA />} />
+            <Route path="/f1/races/tier-b/zandvoort" element={<F1RacesZandvoortB />} />
             <Route path="/f1/register" element={<F1Register />} />
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />

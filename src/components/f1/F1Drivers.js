@@ -37,7 +37,7 @@ export default function F1Drivers () {
           <F1Team teamColor="#5E8FAA" teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" teamName="Alphatauri" driver1Name="Joakingen" driver1Number="25" driver1Flag="/se.png" driver2Name="Simmetry" driver2Number="24" driver2Flag="/se.png" />
           <F1Team teamColor="#358C75" teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" teamName="Aston Martin" driver1Name="Bald" driver1Number="13" driver1Flag="/ie.png" driver2Name="F1 Gamer" driver2Number="96" driver2Flag="/gb.png" />
           <F1Team teamColor="#37BEDD" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" teamName="Williams" driver1Name="Uklucasw" driver1Number="66" driver1Flag="/gb.png" driver2Name="joram" driver2Number="12" driver2Flag="/nl.png" />
-          <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="dopichu" driver1Number="90" driver1Flag="/fi.png" driver2Name="tib" driver2Number="22" driver2Flag="/rs.png" />
+          <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="Daniel Bodnar" driver1Number="18" driver1Flag="/sk.png" driver2Name="Philip" driver2Number="22" driver2Flag="/nl.png" />
           <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Luc" driver1Number="13" driver1Flag="/nl.png" driver2Name="DaVinky" driver2Number="54" driver2Flag="/nl.png" />
           </>
         }
