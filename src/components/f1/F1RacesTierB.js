@@ -2,13 +2,13 @@ import React from 'react'
 import '../../App.css'
 import '../../stylesheets/F1RacesTier.css'
 import F1RaceBox from './F1RaceBox'
+import F1RaceBox2 from './F1RaceBox2'
 import F1RaceBoxComplete from './F1RaceBoxComplete'
 
 export default function F1RacesTierB () {
   const races = [
   ]
 
-  races.push({ id: 6, name: 'Monza (Sprint)', date: new Date(2022, 8, 10).getTime(), flag: '/it.png' })
   races.push({ id: 7, name: 'Hungaroring', date: new Date(2022, 8, 17).getTime(), flag: '/hu.png' })
   races.push({ id: 8, name: 'Miami', date: new Date(2022, 8, 24).getTime(), flag: '/us.png' })
   races.push({ id: 9, name: 'Mexico', date: new Date(2022, 9, 1).getTime(), flag: '/mx.png' })
@@ -25,6 +25,7 @@ export default function F1RacesTierB () {
       <F1RaceBoxComplete raceName="Spa-Francorchamps" raceDate={new Date(2022, 7, 20).getTime()} raceFlag="/be.png" raceLink="/f1/races/tier-b/spa-francorchamps"/>
       <F1RaceBoxComplete raceName="Jeddah" raceDate={new Date(2022, 7, 27).getTime()} raceFlag="/sa.png" raceLink="/f1/races/tier-b/jeddah"/>
       <F1RaceBoxComplete raceName="Zandvoort" raceDate={new Date(2022, 8, 3).getTime()} raceFlag="/nl.png" raceLink="/f1/races/tier-b/zandvoort"/>
+      <F1RaceBox2 raceName="Monza (Sprint)" raceDate={new Date(2022, 8, 10).getTime()} raceFlag="/it.png"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}
