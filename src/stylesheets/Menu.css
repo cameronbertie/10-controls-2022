@@ -41,15 +41,15 @@
 }
 
 .category-item:hover {
- color: #ffffff;
+ color: #333333;
  transition: 0.3s;
  cursor: pointer;
 }
 
 .menu-hr {
     width: 32px;
-    border:1.5px solid #492833;
-    background-color: #492833;
+    border:1.5px solid #1A1A1A;
+    background-color: #1A1A1A;
 }
 
 .category-heading {

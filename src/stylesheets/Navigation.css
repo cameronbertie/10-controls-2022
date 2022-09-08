@@ -1,11 +1,11 @@
 .main-site-nav {
   height: 83px;
-  border-bottom: 1px solid #492833;
+  border-bottom: 1px solid #333333;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
   font-size: 14px;
-  color: #c18794;
+  color: white;
   background-color: black;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .main-navigation-link:hover {
-  color: #ffffff;
+  color: #333333;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -42,7 +42,7 @@
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: #ffffff;
+  background: #333333;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -68,11 +68,11 @@
 }
 
 .border-box-left {
-  border-right: 1px solid #492833;
+  border-right: 1px solid #1A1A1A;
 }
 
 .border-box-right {
-  border-left: 1px solid #492833;
+  border-left: 1px solid #1A1A1A;
 }
 
 .navigation-logo {
@@ -89,7 +89,7 @@
 }
 
 .side-nav-left {
-  border-right: 1px solid #492833;
+  border-right: 1px solid #1A1A1A;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -100,7 +100,7 @@
 }
 
 .side-nav-right {
-  border-left: 1px solid #492833;
+  border-left: 1px solid #1A1A1A;
   position: absolute;
   right: 0;
   top: 84px;
