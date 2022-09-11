@@ -23,6 +23,11 @@ import F1RacesJeddahA from './components/f1/F1RacesJeddahA'
 import F1RacesJeddahB from './components/f1/F1RacesJeddahB'
 import F1RacesZandvoortA from './components/f1/F1RacesZandvoortA'
 import F1RacesZandvoortB from './components/f1/F1RacesZandvoortB'
+import F1RacesMonzaA from './components/f1/F1RacesMonzaA'
+import F1RacesMonzaB from './components/f1/F1RacesMonzaB'
+import ACCMain from './components/acc/ACCMain'
+import ACCDrivers from './components/acc/ACCDrivers'
+import ACCRaces from './components/acc/ACCRaces'
 import ACCRegister from './components/acc/ACCRegister'
 import Admin from './components/admin/Admin'
 import AdminACC from './components/admin/AdminACC'
@@ -53,6 +58,8 @@ function App () {
             <Route path="/f1/races/tier-b/jeddah" element={<F1RacesJeddahB />} />
             <Route path="/f1/races/tier-a/zandvoort" element={<F1RacesZandvoortA />} />
             <Route path="/f1/races/tier-b/zandvoort" element={<F1RacesZandvoortB />} />
+            <Route path="/f1/races/tier-a/monza" element={<F1RacesMonzaA />} />
+            <Route path="/f1/races/tier-b/monza" element={<F1RacesMonzaB />} />
             <Route path="/f1/register" element={<F1Register />} />
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />
@@ -63,6 +70,9 @@ function App () {
             <Route path="/rl/tournaments/autumn/qualifier-event-2" element={<RLQualifier tournamentName="QUALIFIER EVENT 2 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 29th SEPTEMBER 2022"/>} />
             <Route path="/rl/tournaments/autumn/qualifier-event-3" element={<RLQualifier tournamentName="QUALIFIER EVENT 3 - AUTUMN" tournamentPrize="$25" tournamentDate="THURSDAY, 27th October 2022"/>} />
             <Route path="/rl/tournaments/autumn/playoffs" element={<RLPlayoffs tournamentName="Playoffs - AUTUMN" tournamentPrize="$60" tournamentDate="THURSDAY, 24th November 2022" />} />
+            <Route path="/acc" element={<ACCMain />} />
+            <Route path="/acc/races" element={<ACCRaces />} />
+            <Route path="/acc/drivers" element={<ACCDrivers />} />
             <Route path="/acc/register" element={<ACCRegister />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/admin/rl" element={<AdminACC />} />

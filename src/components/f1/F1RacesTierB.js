@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import '../../stylesheets/F1RacesTier.css'
 import F1RaceBox from './F1RaceBox'
-import F1RaceBox2 from './F1RaceBox2'
+// import F1RaceBox2 from './F1RaceBox2'
 import F1RaceBoxComplete from './F1RaceBoxComplete'
 
 export default function F1RacesTierB () {
@@ -25,7 +25,7 @@ export default function F1RacesTierB () {
       <F1RaceBoxComplete raceName="Spa-Francorchamps" raceDate={new Date(2022, 7, 20).getTime()} raceFlag="/be.png" raceLink="/f1/races/tier-b/spa-francorchamps"/>
       <F1RaceBoxComplete raceName="Jeddah" raceDate={new Date(2022, 7, 27).getTime()} raceFlag="/sa.png" raceLink="/f1/races/tier-b/jeddah"/>
       <F1RaceBoxComplete raceName="Zandvoort" raceDate={new Date(2022, 8, 3).getTime()} raceFlag="/nl.png" raceLink="/f1/races/tier-b/zandvoort"/>
-      <F1RaceBox2 raceName="Monza (Sprint)" raceDate={new Date(2022, 8, 10).getTime()} raceFlag="/it.png"/>
+      <F1RaceBoxComplete raceName="Monza (Sprint)" raceDate={new Date(2022, 8, 10).getTime()} raceFlag="/it.png" raceLink="/f1/races/tier-b/monza"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}
