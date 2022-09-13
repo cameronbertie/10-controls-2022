@@ -7,7 +7,7 @@ function ACCTierGrid () {
   return (
     <>
       <section className="tier-grid-container">
-  <div className="left-grid grid-acc">
+  <div className="grid-acc">
     {/* <div className="grid-heading">Tier A</div>
     <div className="grid-subheading">Season 1</div> */}
     <div className="grid-heading-acc">Every Tuesday</div>

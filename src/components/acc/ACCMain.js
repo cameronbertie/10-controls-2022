@@ -15,7 +15,7 @@ function ACCMain () {
     <>
     {/* <SecondaryNav /> */}
 
-      <div className="hero-image">
+      <div className="hero-image" style={{ backgroundImage: `linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%), url(${'/acc-screenshot-1.jpg'})` }}>
   <div className="hero-text">
     <h1>ASSETTO CORSA COMPETIZIONE League Racing</h1>
   </div>

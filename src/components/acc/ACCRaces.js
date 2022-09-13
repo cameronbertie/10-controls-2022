@@ -10,7 +10,7 @@ function ACCRaces () {
     <>
     {/* <SecondaryNav /> */}
 
-      <div className="hero-image">
+      <div className="hero-image" style={{ backgroundImage: `linear-gradient(180deg, rgba(73,40,51,0.6) 0%, rgba(73,40,51,0.6) 100%), url(${'/acc-screenshot-2.jpg'})` }}>
   <div className="hero-text">
     <h1>ASSETTO CORSA COMPETIZIONE LEAGUE RACES</h1>
   </div>

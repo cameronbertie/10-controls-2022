@@ -25,6 +25,7 @@ import F1RacesZandvoortA from './components/f1/F1RacesZandvoortA'
 import F1RacesZandvoortB from './components/f1/F1RacesZandvoortB'
 import F1RacesMonzaA from './components/f1/F1RacesMonzaA'
 import F1RacesMonzaB from './components/f1/F1RacesMonzaB'
+import F1RacesMonzaC from './components/f1/F1RacesMonzaC'
 import ACCMain from './components/acc/ACCMain'
 import ACCDrivers from './components/acc/ACCDrivers'
 import ACCRaces from './components/acc/ACCRaces'
@@ -60,6 +61,7 @@ function App () {
             <Route path="/f1/races/tier-b/zandvoort" element={<F1RacesZandvoortB />} />
             <Route path="/f1/races/tier-a/monza" element={<F1RacesMonzaA />} />
             <Route path="/f1/races/tier-b/monza" element={<F1RacesMonzaB />} />
+            <Route path="/f1/races/tier-c/monza" element={<F1RacesMonzaC />} />
             <Route path="/f1/register" element={<F1Register />} />
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />

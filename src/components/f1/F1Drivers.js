@@ -13,6 +13,7 @@ export default function F1Drivers () {
     <div className="division-menu-container">
         <h4 className="division-menu-item" style={{ color: selectedDivision === 'Tier A' ? 'white' : '#C18794' }} onClick={() => setSelectedDivision('Tier A')}>Tier A - Season 1</h4>
         <h4 className="division-menu-item" style={{ color: selectedDivision === 'Tier B' ? 'white' : '#C18794' }} onClick={() => setSelectedDivision('Tier B')}>Tier B - Season 1</h4>
+        <h4 className="division-menu-item" style={{ color: selectedDivision === 'Tier C' ? 'white' : '#C18794' }} onClick={() => setSelectedDivision('Tier C')}>Tier C - Season 1</h4>
     </div>
     <div className="drivers-list">
     {selectedDivision === 'Tier A'
@@ -28,17 +29,30 @@ export default function F1Drivers () {
           <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="focuser" driver1Number="22" driver1Flag="/es.png" driver2Name="countmuttly" driver2Number="14" driver2Flag="/dk.png" />
           <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Anoldenemy" driver1Number="19" driver1Flag="/hr.png" driver2Name="Flaw" driver2Number="70" driver2Flag="/nl.png" />
           </>
-      : <>
-           <F1Team teamColor="#6CD3BF" teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" teamName="Mercedes" driver1Name="Nydrow" driver1Number="25" driver1Flag="/be.png" driver2Name="Zerotix" driver2Number="99" driver2Flag="/de.png" />
-          <F1Team teamColor="#3671C6" teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" teamName="Red Bull" driver1Name="Maxfan" driver1Number="33" driver1Flag="/pl.png" driver2Name="Arab" driver2Number="28" driver2Flag="/us.png" />
-          <F1Team teamColor="#F91536" teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" teamName="Ferrari" driver1Name="Veixel" driver1Number="42" driver1Flag="/se.png" driver2Name="Cheers" driver2Number="7" driver2Flag="/de.png" />
-          <F1Team teamColor="#F58020" teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" teamName="Mclaren" driver1Name="C3z4R" driver1Number="31" driver1Flag="/ro.png" driver2Name="Brim" driver2Number="8" driver2Flag="/nl.png" />
-          <F1Team teamColor="#2293D1" teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" teamName="Alpine" driver1Name="Chase" driver1Number="4" driver1Flag="/us.png" driver2Name="Aspec" driver2Number="37" driver2Flag="/gb.png" />
-          <F1Team teamColor="#5E8FAA" teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" teamName="Alphatauri" driver1Name="Joakingen" driver1Number="25" driver1Flag="/se.png" driver2Name="Simmetry" driver2Number="24" driver2Flag="/se.png" />
-          <F1Team teamColor="#358C75" teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" teamName="Aston Martin" driver1Name="Bald" driver1Number="13" driver1Flag="/ie.png" driver2Name="F1 Gamer" driver2Number="96" driver2Flag="/gb.png" />
-          <F1Team teamColor="#37BEDD" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" teamName="Williams" driver1Name="Uklucasw" driver1Number="66" driver1Flag="/gb.png" driver2Name="joram" driver2Number="12" driver2Flag="/nl.png" />
-          <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="Daniel Bodnar" driver1Number="18" driver1Flag="/sk.png" driver2Name="Philip" driver2Number="22" driver2Flag="/nl.png" />
-          <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Luc" driver1Number="13" driver1Flag="/nl.png" driver2Name="DaVinky" driver2Number="54" driver2Flag="/nl.png" />
+      : selectedDivision === 'Tier B'
+        ? <>
+          <F1Team teamColor="#6CD3BF" teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" teamName="Mercedes" driver1Name="Nydrow" driver1Number="25" driver1Flag="/be.png" driver2Name="Zerotix" driver2Number="99" driver2Flag="/de.png" />
+         <F1Team teamColor="#3671C6" teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" teamName="Red Bull" driver1Name="Maxfan" driver1Number="33" driver1Flag="/pl.png" driver2Name="Arab" driver2Number="28" driver2Flag="/us.png" />
+         <F1Team teamColor="#F91536" teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" teamName="Ferrari" driver1Name="Veixel" driver1Number="42" driver1Flag="/se.png" driver2Name="Cheers" driver2Number="7" driver2Flag="/de.png" />
+         <F1Team teamColor="#F58020" teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" teamName="Mclaren" driver1Name="C3z4R" driver1Number="31" driver1Flag="/ro.png" driver2Name="Brim" driver2Number="8" driver2Flag="/nl.png" />
+         <F1Team teamColor="#2293D1" teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" teamName="Alpine" driver1Name="Chase" driver1Number="4" driver1Flag="/us.png" driver2Name="Aspec" driver2Number="37" driver2Flag="/gb.png" />
+         <F1Team teamColor="#5E8FAA" teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" teamName="Alphatauri" driver1Name="Joakingen" driver1Number="25" driver1Flag="/se.png" driver2Name="Simmetry" driver2Number="24" driver2Flag="/se.png" />
+         <F1Team teamColor="#358C75" teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" teamName="Aston Martin" driver1Name="Bald" driver1Number="13" driver1Flag="/ie.png" driver2Name="F1 Gamer" driver2Number="96" driver2Flag="/gb.png" />
+         <F1Team teamColor="#37BEDD" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" teamName="Williams" driver1Name="Uklucasw" driver1Number="66" driver1Flag="/gb.png" driver2Name="joram" driver2Number="12" driver2Flag="/nl.png" />
+         <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="Daniel Bodnar" driver1Number="18" driver1Flag="/sk.png" driver2Name="Philip" driver2Number="22" driver2Flag="/nl.png" />
+         <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Luc" driver1Number="13" driver1Flag="/nl.png" driver2Name="DaVinky" driver2Number="54" driver2Flag="/nl.png" />
+         </>
+        : <>
+           <F1Team teamColor="#6CD3BF" teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" teamName="Mercedes" driver1Name="Pablo Mothiba" driver1Number="7" driver1Flag="/be.png" driver2Name="zbey" driver2Number="27" driver2Flag="/be.png" />
+          <F1Team teamColor="#3671C6" teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" teamName="Red Bull" driver1Name="Philip" driver1Number="22" driver1Flag="/nl.png" driver2Name="Egamer" driver2Number="15" driver2Flag="/gb.png" />
+          <F1Team teamColor="#F91536" teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" teamName="Ferrari" driver1Name="ZaceFace" driver1Number="19" driver1Flag="/gb.png" driver2Name="Las Gamer" driver2Number="69" driver2Flag="/it.png" />
+          <F1Team teamColor="#F58020" teamBackground="rgba(245, 128, 32, 0.2)" teamImage="/mclaren.png" teamName="Mclaren" driver1Name="Guri" driver1Number="16" driver1Flag="/br.png" driver2Name="Runkeri" driver2Number="23" driver2Flag="/fi.png" />
+          <F1Team teamColor="#2293D1" teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" teamName="Alpine" driver1Name="Brown" driver1Number="12" driver1Flag="/de.png" driver2Name="rinky" driver2Number="24" driver2Flag="/nl.png" />
+          <F1Team teamColor="#5E8FAA" teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" teamName="Alphatauri" driver1Name="Sheezies" driver1Number="21" driver1Flag="/nl.png" driver2Name="ghcbt" driver2Number="17" driver2Flag="/za.png" />
+          <F1Team teamColor="#358C75" teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" teamName="Aston Martin" driver1Name="Steen" driver1Number="11" driver1Flag="/nl.png" driver2Name="Kaiba" driver2Number="9" driver2Flag="/eg.png" />
+          <F1Team teamColor="#37BEDD" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" teamName="Williams" driver1Name="Saad" driver1Number="47" driver1Flag="/sa.png" driver2Name="Myron" driver2Number="5" driver2Flag="/ua.png" />
+          <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="Jurv" driver1Number="20" driver1Flag="/nl.png" driver2Name="ElderArcher" driver2Number="13" driver2Flag="/mx.png" />
+          <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Traumatized" driver1Number="" driver1Flag="/it.png" driver2Name="geetype" driver2Number="88" driver2Flag="/se.png" />
           </>
         }
     </div>

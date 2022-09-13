@@ -5,6 +5,8 @@ import F1DriversA from './F1DriversA'
 import F1ConstructorsA from './F1ConstructorsA'
 import F1DriversB from './F1DriversB'
 import F1ConstructorsB from './F1ConstructorsB'
+import F1DriversC from './F1DriversC'
+import F1ConstructorsC from './F1ConstructorsC'
 import Footer from '../Footer'
 
 export default function F1Standings () {
@@ -20,6 +22,7 @@ export default function F1Standings () {
     <div className="division-menu-container">
         <h4 className="division-menu-item" style={{ color: selectedDivision === 'Tier A' ? 'white' : '#C18794' }} onClick={() => setSelectedDivision('Tier A')}>Tier A</h4>
         <h4 className="division-menu-item" style={{ color: selectedDivision === 'Tier B' ? 'white' : '#C18794' }} onClick={() => setSelectedDivision('Tier B')}>Tier B</h4>
+        <h4 className="division-menu-item" style={{ color: selectedDivision === 'Tier C' ? 'white' : '#C18794' }} onClick={() => setSelectedDivision('Tier C')}>Tier C</h4>
     </div>
     <div className="division-menu-container">
         <h4 className="division-menu-item" style={{ color: selectedCategory === 'Drivers' ? 'white' : '#C18794' }} onClick={() => setSelectedCategory('Drivers')}>Drivers</h4>
@@ -37,6 +40,12 @@ export default function F1Standings () {
         }
         {(selectedDivision === 'Tier B' && selectedCategory === 'Constructors') &&
        <F1ConstructorsB />
+        }
+        {(selectedDivision === 'Tier C' && selectedCategory === 'Drivers') &&
+       <F1DriversC />
+        }
+        {(selectedDivision === 'Tier C' && selectedCategory === 'Constructors') &&
+       <F1ConstructorsC />
         }
     </div>
     <Footer />

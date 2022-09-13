@@ -37,7 +37,7 @@ export default function Navigation () {
           <Link to='f1'>
           <div className="main-navigation-link">F1 22</div>
           </Link>
-          <Link to='/acc/register'>
+          <Link to='acc'>
           <div className="main-navigation-link">Assetto Corsa Competizione</div>
           </Link>
         </div>
@@ -91,7 +91,7 @@ export default function Navigation () {
                       </div>
                   </nav>
                   <nav className="category-content">
-                      <div className="category-heading"><Link to="/acc/register" className="category-item">Assetto Corsa Competizione</Link></div>
+                      <div className="category-heading"><Link to="/acc" className="category-item">Assetto Corsa Competizione</Link></div>
                       <hr className="menu-hr"></hr>
                       <div className="category-list">
                       <div className="category-subheading"><Link to="acc/register" className="category-item">Register</Link></div>

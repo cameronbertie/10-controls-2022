@@ -17,6 +17,7 @@
     height: auto;
     width: 100%;
     box-sizing: border-box;
+    background-image: linear-gradient(180deg, rgba(193,135,148,1) 0%, rgba(193,135,148,0.8) 100%), url("/public/acc-screenshot-2.jpg");
 }
 
 .left-grid{
