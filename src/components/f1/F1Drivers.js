@@ -52,7 +52,7 @@ export default function F1Drivers () {
           <F1Team teamColor="#358C75" teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" teamName="Aston Martin" driver1Name="Steen" driver1Number="11" driver1Flag="/nl.png" driver2Name="Kaiba" driver2Number="9" driver2Flag="/eg.png" />
           <F1Team teamColor="#37BEDD" teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" teamName="Williams" driver1Name="Saad" driver1Number="47" driver1Flag="/sa.png" driver2Name="Myron" driver2Number="5" driver2Flag="/ua.png" />
           <F1Team teamColor="#C92D4B" teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" teamName="alfa romeo" driver1Name="Jurv" driver1Number="20" driver1Flag="/nl.png" driver2Name="ElderArcher" driver2Number="13" driver2Flag="/mx.png" />
-          <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Traumatized" driver1Number="" driver1Flag="/it.png" driver2Name="geetype" driver2Number="88" driver2Flag="/se.png" />
+          <F1Team teamColor="#B6BABD" teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" teamName="Haas" driver1Name="Traumatized" driver1Number="3" driver1Flag="/it.png" driver2Name="geetype" driver2Number="88" driver2Flag="/se.png" />
           </>
         }
     </div>
