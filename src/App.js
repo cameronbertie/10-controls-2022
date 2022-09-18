@@ -26,14 +26,17 @@ import F1RacesZandvoortB from './components/f1/F1RacesZandvoortB'
 import F1RacesMonzaA from './components/f1/F1RacesMonzaA'
 import F1RacesMonzaB from './components/f1/F1RacesMonzaB'
 import F1RacesMonzaC from './components/f1/F1RacesMonzaC'
+import F1RacesHungaroringA from './components/f1/F1RacesHungaroringA'
+import F1RacesHungaroringB from './components/f1/F1RacesHungaroringB'
+import F1RacesHungaroringC from './components/f1/F1RacesHungaroringC'
 import ACCMain from './components/acc/ACCMain'
 import ACCDrivers from './components/acc/ACCDrivers'
 import ACCRaces from './components/acc/ACCRaces'
 import ACCRegister from './components/acc/ACCRegister'
 import Admin from './components/admin/Admin'
-import AdminACC from './components/admin/AdminACC'
-import AdminF1 from './components/admin/AdminF1'
-import AdminRL from './components/admin/AdminRL'
+// import AdminACC from './components/admin/AdminACC'
+// import AdminF1 from './components/admin/AdminF1'
+// import AdminRL from './components/admin/AdminRL'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App () {
@@ -59,9 +62,12 @@ function App () {
             <Route path="/f1/races/tier-b/jeddah" element={<F1RacesJeddahB />} />
             <Route path="/f1/races/tier-a/zandvoort" element={<F1RacesZandvoortA />} />
             <Route path="/f1/races/tier-b/zandvoort" element={<F1RacesZandvoortB />} />
-            <Route path="/f1/races/tier-a/monza" element={<F1RacesMonzaA />} />
+            <Route path="/f1/races/tier-a/hungaroring" element={<F1RacesHungaroringA />} />
+            <Route path="/f1/races/tier-b/hungaroring" element={<F1RacesHungaroringB />} />
+            <Route path="/f1/races/tier-c/hungaroring" element={<F1RacesHungaroringC />} />
             <Route path="/f1/races/tier-b/monza" element={<F1RacesMonzaB />} />
             <Route path="/f1/races/tier-c/monza" element={<F1RacesMonzaC />} />
+            <Route path="/f1/races/tier-a/monza" element={<F1RacesMonzaA />} />
             <Route path="/f1/register" element={<F1Register />} />
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />
@@ -77,9 +83,9 @@ function App () {
             <Route path="/acc/drivers" element={<ACCDrivers />} />
             <Route path="/acc/register" element={<ACCRegister />} />
             <Route path="/admin" element={<Admin />} />
-            <Route path="/admin/rl" element={<AdminACC />} />
+            {/* <Route path="/admin/rl" element={<AdminACC />} />
             <Route path="/admin/f1" element={<AdminF1 />} />
-            <Route path="/admin/rl" element={<AdminRL />} />
+            <Route path="/admin/rl" element={<AdminRL />} /> */}
           </Routes>
         </main>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import '../../stylesheets/F1ResultsPage.css'
 import F1RaceResult from './F1RaceResult'
 
-export default function F1RacesJeddahA () {
+export default function F1RacesMonzaA () {
   return (
     <div className="page-content">
         <h1 className="page-content-heading">Monza</h1>
