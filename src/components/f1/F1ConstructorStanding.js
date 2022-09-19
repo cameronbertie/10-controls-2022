@@ -3,18 +3,18 @@ import PropTypes from 'prop-types'
 
 export default function F1ConstructorStanding ({ teamColor, teamBackground, teamImage, constructorPosition, constructorName, constructorPoints }) {
   return (
-    <div className="team-container">
-        <div style={{ background: teamBackground }} className="team-member-box">
-          <div className="team-details-outer">
-          <div className="team-details-container-2">
-          <h4 className="team-name-2">{constructorPosition}</h4>
-            <img className="team-image" src={teamImage} />
+    <div className="team-container-4">
+        <div style={{ background: teamBackground }} className="team-member-box-4">
+          <div className="team-details-outer-4">
+          <div className="team-details-container-4">
+          <h4 className="team-name-4">{constructorPosition}</h4>
+            <img className="team-image-4" src={teamImage} />
             </div>
-            <h3 className="driver-name">{constructorName}</h3>
+            <h3 className="driver-name-4">{constructorName}</h3>
             </div>
-            <div className="flag-number-container-2">
-            <div style={{ background: teamColor }} className="rectangle"></div>
-          <h2>{constructorPoints}</h2>
+            <div className="flag-number-container-4">
+            <div style={{ background: teamColor }} className="rectangle-4"></div>
+          <h2 className="driver-points-4">{constructorPoints}</h2>
         </div>
         </div>
     </div>

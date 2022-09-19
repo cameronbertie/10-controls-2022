@@ -4,7 +4,7 @@ import '../../stylesheets/F1Standings.css'
 
 export default function F1DriversC () {
   return (
-    <div className="drivers-list">
+    <div className="drivers-list-4">
       <div>
           <h5>Promotion To Tier B</h5>
         <hr className="standing-separator"></hr>

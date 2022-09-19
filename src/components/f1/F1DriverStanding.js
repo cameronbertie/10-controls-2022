@@ -3,21 +3,21 @@ import PropTypes from 'prop-types'
 
 export default function F1DriverStanding ({ teamBackground, teamImage, driverFlag, driverPosition, driverName, constructorName, driverPoints }) {
   return (
-      <div className="team-container">
-          <div style={{ background: teamBackground }} className="team-member-box">
-            <div className="team-details-outer">
-            <div className="team-details-container-2">
-            <h4 className="team-name-2">{driverPosition}</h4>
-              <img className="team-image-driver" src={driverFlag} />
+      <div className="team-container-4">
+          <div style={{ background: teamBackground }} className="team-member-box-4">
+            <div className="team-details-outer-4">
+            <div className="team-details-container-4">
+            <h4 className="team-name-4">{driverPosition}</h4>
+              <img className="team-image-driver-4" src={driverFlag} />
               </div>
-              <h3 className="driver-name">{driverName}</h3>
+              <h3 className="driver-name-4">{driverName}</h3>
               </div>
-              <div className="team-points-container">
-                <div className="logo-name-container">
-              <h6 className="team-name-driver">{constructorName}</h6>
-              <img className="team-image" src={teamImage} />
+              <div className="team-points-container-4">
+                <div className="logo-name-container-4">
+              <h6 className="team-name-driver-4">{constructorName}</h6>
+              <img className="team-image-4" src={teamImage} />
               </div>
-            <h2>{driverPoints}</h2>
+            <h2 className="driver-points-4">{driverPoints}</h2>
           </div>
           </div>
       </div>
