@@ -6,24 +6,22 @@ import { Link } from 'react-router-dom'
 function F1MainButtons () {
   return (
     <>
-    <section className="tier-grid-container-2">
-
-    <Link to='/f1/races' className="right-grid-2 button-box">
-    <div className="access-heading">Races</div>
-  </Link>
-
-  <Link to='/f1/standings' className="left-grid-2 button-box">
-    <div className="access-heading">Standings</div>
-  </Link>
-
-  <Link to='/f1/drivers' className="left-grid-2 button-box">
-    <div className="access-heading">Drivers</div>
-  </Link>
-
-  <Link to='/f1/register' className="right-grid-2 button-box">
-    <div className="access-heading">Register</div>
-  </Link>
-</section>
+<div className="tier-grid-container-2">
+          <Link to='/f1/races'>
+          <div className="main-button-link">
+            Races
+          </div>
+          </Link>
+          <Link to='/f1/standings'>
+          <div className="main-button-link">Standings</div>
+          </Link>
+          <Link to='/f1/drivers'>
+          <div className="main-button-link">Drivers</div>
+          </Link>
+          <Link to='/f1/register'>
+          <div className="main-button-link">Register</div>
+          </Link>
+        </div>
 </>
   )
 }

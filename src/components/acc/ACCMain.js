@@ -20,9 +20,10 @@ function ACCMain () {
     <h1>ASSETTO CORSA COMPETIZIONE League Racing</h1>
   </div>
 </div>
-
-<div className="page-content">
+<div className="page-content-full">
 <ACCMainButtons />
+</div>
+<div className="page-content">
 <ACCRaceFormat />
 <ACCTierGrid />
 </div>

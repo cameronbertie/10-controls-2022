@@ -94,6 +94,9 @@ export default function Navigation () {
                       <div className="category-heading"><Link to="/acc" className="category-item">Assetto Corsa Competizione</Link></div>
                       <hr className="menu-hr"></hr>
                       <div className="category-list">
+                      <div className="category-subheading"><Link to="/acc/drivers" className="category-item">Drivers</Link></div>
+                      </div>
+                      <div className="category-list">
                       <div className="category-subheading"><Link to="acc/register" className="category-item">Register</Link></div>
                       </div>
                   </nav>

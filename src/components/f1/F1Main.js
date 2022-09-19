@@ -20,9 +20,10 @@ function F1Main () {
     <h1>F1 22 League Racing</h1>
   </div>
 </div>
-
-<div className="page-content">
+<div className="page-content-full">
 <F1MainButtons />
+</div>
+<div className="page-content">
 <F1RaceFormat />
 <F1TierGrid />
 </div>
