@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import '../../stylesheets/Register.css'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 // import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 import 'firebase/compat/auth'
@@ -12,11 +12,15 @@ import 'firebase/compat/auth'
 export default function AdminF1 () {
   return (
     <div className="page-content">
-<button>Add Season</button>
-<button>Edit Season</button>
-<button>Delete Season</button>
+<Link to="/admin/f1/seasons"><button>Seasons</button></Link>
 <br></br><br></br>
-<button>Add Tier</button>
+<button>Tiers</button>
+<br></br><br></br>
+<button>Drivers</button>
+<br></br><br></br>
+<button>Races</button>
+<br></br><br></br>
+{/* <button>Add Tier</button>
 <button>Edit Tier</button>
 <button>Delete Tier</button>
 <br></br><br></br>
@@ -29,7 +33,7 @@ export default function AdminF1 () {
 <button>Delete Race</button>
 <br></br><br></br>
 <button>Add Race Results</button>
-<button>Edit Race Results</button>
+<button>Edit Race Results</button> */}
 </div>
 
   )

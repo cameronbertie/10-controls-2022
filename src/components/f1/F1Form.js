@@ -71,12 +71,19 @@ export default function F1Form () {
             required
           />
           <img className="form-image" src="/f1-game-name.jpg"/>
-          <input
+          {/* <input
             value={platform}
             onChange={(e) => setPlatform(e.target.value)}
             placeholder="Platform"
             required
-          />
+          /> */}
+          <select required value={platform} onChange={(e) => setPlatform(e.target.value)} name="platform">
+          <option value="" disabled selected hidden>PLATFORM</option>
+            <option value="steam">STEAM</option>
+            <option value="origin">ORIGIN</option>
+            <option value="xbox">XBOX</option>
+            <option value="playstation">PLAYSTATION</option>
+          </select>
           <input
             value={discordTag}
             onChange={(e) => setDiscordTag(e.target.value)}

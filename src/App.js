@@ -35,7 +35,8 @@ import ACCRaces from './components/acc/ACCRaces'
 import ACCRegister from './components/acc/ACCRegister'
 import Admin from './components/admin/Admin'
 // import AdminACC from './components/admin/AdminACC'
-// import AdminF1 from './components/admin/AdminF1'
+import AdminF1 from './components/admin/AdminF1'
+import AdminF1Seasons from './components/admin/AdminF1Seasons'
 // import AdminRL from './components/admin/AdminRL'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
@@ -82,9 +83,11 @@ function App () {
             <Route path="/acc/races" element={<ACCRaces />} />
             <Route path="/acc/drivers" element={<ACCDrivers />} />
             <Route path="/acc/register" element={<ACCRegister />} />
-            <Route path="/admin" element={<Admin />} />
-            {/* <Route path="/admin/rl" element={<AdminACC />} />
+            <Route path="admin" element={<Admin />} />
             <Route path="/admin/f1" element={<AdminF1 />} />
+            <Route path="/admin/f1/seasons" element={<AdminF1Seasons />} />
+            {/* <Route path="/admin/rl" element={<AdminACC />} />
+            <Route path="/admin/" element={<AdminF1 />} />
             <Route path="/admin/rl" element={<AdminRL />} /> */}
           </Routes>
         </main>

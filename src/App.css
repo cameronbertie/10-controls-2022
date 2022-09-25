@@ -87,6 +87,17 @@ input {
   font-family: "Inter", sans-serif;
 }
 
+select {
+  background: black;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid #c18794;
+  font-size: 16px !important;
+  padding: 8px 16px;
+  font-family: "Inter", sans-serif;
+}
+
+
 ::-webkit-input-placeholder {
   /* Edge */
   color: white;

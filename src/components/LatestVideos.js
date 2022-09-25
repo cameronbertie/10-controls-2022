@@ -12,13 +12,13 @@ function LatestVideos () {
        <br></br>
        <div className="selected-video-container">
        <iframe className="video-frame"
+ src="https://www.youtube.com/embed/HNYzPC0Z3p4">
+</iframe>
+       <iframe className="video-frame"
  src="https://www.youtube.com/embed/kir4hPeDBRg">
 </iframe>
        <iframe className="video-frame"
  src="https://www.youtube.com/embed/maISP1lFtOQ">
-</iframe>
-       <iframe className="video-frame"
-src="https://www.youtube.com/embed/RHNaiOMWHQM">
 </iframe>
        </div>
 </section>
