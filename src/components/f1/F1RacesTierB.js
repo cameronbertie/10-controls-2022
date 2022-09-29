@@ -8,8 +8,6 @@ import F1RaceBoxComplete from './F1RaceBoxComplete'
 export default function F1RacesTierB () {
   const races = [
   ]
-
-  races.push({ id: 8, name: 'Miami', date: new Date(2022, 8, 24).getTime(), flag: '/us.png' })
   races.push({ id: 9, name: 'Mexico', date: new Date(2022, 9, 1).getTime(), flag: '/mx.png' })
   races.push({ id: 10, name: 'Imola (Sprint)', date: new Date(2022, 9, 8).getTime(), flag: '/it.png' })
   races.push({ id: 11, name: 'Barcelona', date: new Date(2022, 9, 15).getTime(), flag: '/es.png' })
@@ -19,13 +17,14 @@ export default function F1RacesTierB () {
   races.push({ id: 15, name: 'Yas Marina', date: new Date(2022, 10, 12).getTime(), flag: '/ae.png' })
   return (
     <div className="race-tier-container">
-      <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 6).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-b/melbourne"/>
-      <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 13).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-b/silverstone"/>
-      <F1RaceBoxComplete raceName="Spa-Francorchamps" raceDate={new Date(2022, 7, 20).getTime()} raceFlag="/be.png" raceLink="/f1/races/tier-b/spa-francorchamps"/>
-      <F1RaceBoxComplete raceName="Jeddah" raceDate={new Date(2022, 7, 27).getTime()} raceFlag="/sa.png" raceLink="/f1/races/tier-b/jeddah"/>
-      <F1RaceBoxComplete raceName="Zandvoort" raceDate={new Date(2022, 8, 3).getTime()} raceFlag="/nl.png" raceLink="/f1/races/tier-b/zandvoort"/>
-      <F1RaceBoxComplete raceName="Monza (Sprint)" raceDate={new Date(2022, 8, 10).getTime()} raceFlag="/it.png" raceLink="/f1/races/tier-b/monza"/>
-      <F1RaceBoxComplete raceName="Hungaroring" raceDate={new Date(2022, 8, 17).getTime()} raceFlag="/hu.png" raceLink="/f1/races/tier-b/hungaroring"/>
+      <F1RaceBoxComplete raceName="Melbourne" raceDate={new Date(2022, 7, 6).getTime()} raceFlag="/au.png" raceLink="/f1/races/tier-b/melbourne" videoLink="https://www.youtube.com/watch?v=Cu7v0aCxCOQ&t=35s"/>
+      <F1RaceBoxComplete raceName="Silverstone" raceDate={new Date(2022, 7, 13).getTime()} raceFlag="/gb.png" raceLink="/f1/races/tier-b/silverstone" videoLink="https://www.youtube.com/watch?v=_RhPVfNwIcY&t=55s"/>
+      <F1RaceBoxComplete raceName="Spa-Francorchamps" raceDate={new Date(2022, 7, 20).getTime()} raceFlag="/be.png" raceLink="/f1/races/tier-b/spa-francorchamps" videoLink="https://www.youtube.com/watch?v=gmJ15BhNsd8&t=181s"/>
+      <F1RaceBoxComplete raceName="Jeddah" raceDate={new Date(2022, 7, 27).getTime()} raceFlag="/sa.png" raceLink="/f1/races/tier-b/jeddah" videoLink="https://www.youtube.com/watch?v=RHNaiOMWHQM&t=3s"/>
+      <F1RaceBoxComplete raceName="Zandvoort" raceDate={new Date(2022, 8, 3).getTime()} raceFlag="/nl.png" raceLink="/f1/races/tier-b/zandvoort" videoLink="https://www.youtube.com/watch?v=kir4hPeDBRg"/>
+      <F1RaceBoxComplete raceName="Monza (Sprint)" raceDate={new Date(2022, 8, 10).getTime()} raceFlag="/it.png" raceLink="/f1/races/tier-b/monza" videoLink="https://www.youtube.com/watch?v=HNYzPC0Z3p4"/>
+      <F1RaceBoxComplete raceName="Hungaroring" raceDate={new Date(2022, 8, 17).getTime()} raceFlag="/hu.png" raceLink="/f1/races/tier-b/hungaroring" videoLink="https://www.youtube.com/watch?v=DfBBev6xxQM"/>
+      <F1RaceBoxComplete raceName="Miami" raceDate={new Date(2022, 8, 24).getTime()} raceFlag="/us.png" raceLink="/f1/races/tier-b/miami" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}

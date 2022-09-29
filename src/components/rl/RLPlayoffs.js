@@ -50,22 +50,22 @@ function RLPlayoffs (props) {
     <tr className="prize-winner">
       <td className="prize-data">1st</td>
       <td className="prize-data">$26</td>
-      <td className="prize-table-data">601</td>
+      <td className="prize-table-data">32</td>
     </tr>
     <tr className="prize-runner-up">
       <td className="prize-data">2nd</td>
       <td className="prize-data">$12</td>
-      <td className="prize-data">500</td>
+      <td className="prize-data">24</td>
     </tr>
     <tr className="prize-third">
       <td className="prize-data">3rd-4th</td>
       <td className="prize-data">$6</td>
-      <td className="prize-data">400</td>
+      <td className="prize-data">18</td>
     </tr>
     <tr>
       <td className="prize-data">5th-8th</td>
       <td className="prize-data">$2.50</td>
-      <td className="prize-data">300</td>
+      <td className="prize-data">12</td>
     </tr>
   </table>
 </div>

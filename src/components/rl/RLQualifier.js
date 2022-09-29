@@ -50,17 +50,17 @@ function RLQualifier (props) {
     <tr className="prize-winner">
       <td className="prize-data">1st</td>
       <td className="prize-data">$14</td>
-      <td className="prize-table-data">301</td>
+      <td className="prize-table-data">16</td>
     </tr>
     <tr className="prize-runner-up">
       <td className="prize-data">2nd</td>
       <td className="prize-data">$6</td>
-      <td className="prize-data">250</td>
+      <td className="prize-data">12</td>
     </tr>
     <tr className="prize-third">
       <td className="prize-data">3rd-4th</td>
       <td className="prize-data">$2.50</td>
-      <td className="prize-data">200</td>
+      <td className="prize-data">9</td>
     </tr>
     <tr>
       <td className="prize-data">5th-8th</td>

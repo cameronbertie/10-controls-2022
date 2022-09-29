@@ -18,7 +18,10 @@ export default function F1RaceBoxComplete (props) {
       <div className="race-box-content">
         <div className="race-box-title">{props.raceName}</div>
         <div className="race-box-date">{dayString}<sup>{ordinalDay}</sup> {dateString}</div>
+        <div className="race-box-button-container">
         <Link to={props.raceLink}><button className="race-box-button">View Results</button></Link>
+        <a href={props.videoLink}><button className="race-box-button">View Highlights</button></a>
+        </div>
       </div>
     </div>
   )
@@ -28,5 +31,6 @@ F1RaceBoxComplete.propTypes = {
   raceName: PropTypes.string.isRequired,
   raceDate: PropTypes.number.isRequired,
   raceFlag: PropTypes.string.isRequired,
-  raceLink: PropTypes.string.isRequired
+  raceLink: PropTypes.string.isRequired,
+  videoLink: PropTypes.string.isRequired
 }

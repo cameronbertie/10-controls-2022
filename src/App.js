@@ -29,6 +29,8 @@ import F1RacesMonzaC from './components/f1/F1RacesMonzaC'
 import F1RacesHungaroringA from './components/f1/F1RacesHungaroringA'
 import F1RacesHungaroringB from './components/f1/F1RacesHungaroringB'
 import F1RacesHungaroringC from './components/f1/F1RacesHungaroringC'
+import F1RacesMiamiA from './components/f1/F1RacesMiamiA'
+import F1RacesMiamiB from './components/f1/F1RacesMiamiB'
 import ACCMain from './components/acc/ACCMain'
 import ACCDrivers from './components/acc/ACCDrivers'
 import ACCRaces from './components/acc/ACCRaces'
@@ -66,6 +68,8 @@ function App () {
             <Route path="/f1/races/tier-a/hungaroring" element={<F1RacesHungaroringA />} />
             <Route path="/f1/races/tier-b/hungaroring" element={<F1RacesHungaroringB />} />
             <Route path="/f1/races/tier-c/hungaroring" element={<F1RacesHungaroringC />} />
+            <Route path="/f1/races/tier-a/miami" element={<F1RacesMiamiA />} />
+            <Route path="/f1/races/tier-b/miami" element={<F1RacesMiamiB />} />
             <Route path="/f1/races/tier-b/monza" element={<F1RacesMonzaB />} />
             <Route path="/f1/races/tier-c/monza" element={<F1RacesMonzaC />} />
             <Route path="/f1/races/tier-a/monza" element={<F1RacesMonzaA />} />
