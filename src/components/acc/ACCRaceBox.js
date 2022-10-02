@@ -21,7 +21,9 @@ export default function ACCRaceBox (props) {
         <br></br>
         <div className="race-box-date">{dayString}<sup>{ordinalDay}</sup> {dateString}</div>
         <div className="race-box-date">Race Starts at 19:30 BST</div>
-        <Link to="/acc/register"><button className="race-box-button">Register Now</button></Link>
+        <div className="race-box-button-container">
+          <Link to="/acc/register"><button className="race-box-button">Register Now</button></Link>
+        </div>
       </div>
     </div>
   )

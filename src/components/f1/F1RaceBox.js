@@ -22,7 +22,9 @@ export default function F1RaceBox (props) {
         <div className="race-box-date">Practice Lobby Opens at 18:00 BST</div>
         <br></br>
         <div className="race-box-date">Race Starts at 19:30 BST</div>
-        <Link to="/f1/register"><button className="race-box-button">Register Now</button></Link>
+        <div className="race-box-button-container">
+          <Link to="/f1/register"><button className="race-box-button">Register Now</button></Link>
+        </div>
       </div>
     </div>
   )

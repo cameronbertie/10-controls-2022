@@ -22,9 +22,18 @@
     font-size: 18.72px;
 }
 
-.race-box-button {
+.race-box-button-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
     margin-top: 24px;
+    justify-content: center;
 }
+
+.race-box-button {
+    width: 100%;
+}
+
 
 /* If the screen size is 1023px wide or less, hide the element */
 @media only screen and (max-width: 1023px) {
