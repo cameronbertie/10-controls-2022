@@ -125,7 +125,7 @@ export default function F1Form () {
             />
           <div className="discord-content-container">
             <h3>10 Controls Community</h3>
-            <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer"><button className="discord-join-button">Join</button></a>
+            <a href="https://discord.gg/10controls" target="_blank" rel="noreferrer"><button className="discord-join-button">Join</button></a>
           </div>
         </div>
       </div>

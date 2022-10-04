@@ -11,7 +11,7 @@ export default function Footer () {
   return (
     <footer>
       <div className="social-icons-footer">
-      <a href="https://discord.gg/jKeXr7mcv5" target="_blank" rel="noreferrer">
+      <a href="https://discord.gg/10controls" target="_blank" rel="noreferrer">
         <div className="discord-container discord-logo-container-right">
           <img className="footer-social" src={discordLogo} alt="Discord Logo" />
         </div>

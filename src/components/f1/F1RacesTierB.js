@@ -8,7 +8,6 @@ import F1RaceBoxComplete from './F1RaceBoxComplete'
 export default function F1RacesTierB () {
   const races = [
   ]
-  races.push({ id: 9, name: 'Mexico', date: new Date(2022, 9, 1).getTime(), flag: '/mx.png' })
   races.push({ id: 10, name: 'Imola (Sprint)', date: new Date(2022, 9, 8).getTime(), flag: '/it.png' })
   races.push({ id: 11, name: 'Barcelona', date: new Date(2022, 9, 15).getTime(), flag: '/es.png' })
   races.push({ id: 12, name: 'Suzuka', date: new Date(2022, 9, 22).getTime(), flag: '/jp.png' })
@@ -25,6 +24,7 @@ export default function F1RacesTierB () {
       <F1RaceBoxComplete raceName="Monza (Sprint)" raceDate={new Date(2022, 8, 10).getTime()} raceFlag="/it.png" raceLink="/f1/races/tier-b/monza" videoLink="https://www.youtube.com/watch?v=HNYzPC0Z3p4"/>
       <F1RaceBoxComplete raceName="Hungaroring" raceDate={new Date(2022, 8, 17).getTime()} raceFlag="/hu.png" raceLink="/f1/races/tier-b/hungaroring" videoLink="https://www.youtube.com/watch?v=DfBBev6xxQM"/>
       <F1RaceBoxComplete raceName="Miami" raceDate={new Date(2022, 8, 24).getTime()} raceFlag="/us.png" raceLink="/f1/races/tier-b/miami" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
+      <F1RaceBoxComplete raceName="Mexico" raceDate={new Date(2022, 9, 1).getTime()} raceFlag="/mx.png" raceLink="/f1/races/tier-b/mexico" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)
         })}
