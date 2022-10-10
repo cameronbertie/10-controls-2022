@@ -33,6 +33,7 @@ import F1RacesMiamiA from './components/f1/F1RacesMiamiA'
 import F1RacesMexicoA from './components/f1/F1RacesMexicoA'
 import F1RacesMexicoB from './components/f1/F1RacesMexicoB'
 import F1RacesMiamiB from './components/f1/F1RacesMiamiB'
+import F1RacesImolaA from './components/f1/F1RacesImolaA'
 import ACCMain from './components/acc/ACCMain'
 import ACCDrivers from './components/acc/ACCDrivers'
 import ACCRaces from './components/acc/ACCRaces'
@@ -77,6 +78,7 @@ function App () {
             <Route path="/f1/races/tier-a/monza" element={<F1RacesMonzaA />} />
             <Route path="/f1/races/tier-a/mexico" element={<F1RacesMexicoA />} />
             <Route path="/f1/races/tier-b/mexico" element={<F1RacesMexicoB />} />
+            <Route path="/f1/races/tier-a/imola" element={<F1RacesImolaA />} />
             <Route path="/f1/register" element={<F1Register />} />
             <Route path="/f1/drivers" element={<F1Drivers />} />
             <Route path="/f1/standings" element={<F1Standings />} />
