@@ -9,7 +9,7 @@ export default function UpcomingEvents () {
         <h2 className="upcoming-heading">Upcoming Events</h2>
         <hr className="header-row"></hr>
         <EventBox game="Rocket League" gameImage="/rl-white.png" tournamentType="2022-2023 Open Challenge" tournamentName="Autumn - Qualifier Event 3" tournamentDate="27th October 2022" buttonLink="/rl/tournaments" viewAllLink="/rl/tournaments"/>
-        <EventBox game="f1 22" gameImage="/f1-white.png" tournamentType="Season 1" tournamentName="Imola (Sprint)" tournamentDate="7th/8th October 2022" buttonLink="/f1/register" viewAllLink="/f1/races"/>
+        <EventBox game="f1 22" gameImage="/f1-white.png" tournamentType="Season 1" tournamentName="Barcelona" tournamentDate="14th/15th October 2022" buttonLink="/f1/register" viewAllLink="/f1/races"/>
 </section>
   )
 }
