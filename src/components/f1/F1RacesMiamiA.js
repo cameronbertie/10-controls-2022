@@ -19,7 +19,7 @@ export default function F1RacesMiamiA () {
             <th className="fastest-lap"><h6>Fastest Lap</h6></th>
             <th><h6>Pts</h6></th>
         </tr>
-        <F1RaceResult teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" constructorName="Red Bull" driverName="ThomasVink" driverFlag="/nl.png" driverInterval="55:59.847" driverFastLap="1:41.681" driverGrid="" driverPosition="1" driverPoints="26" lapColor="#6a3d9e" />
+        <F1RaceResult teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" constructorName="Red Bull" driverName="ThomasVink" driverFlag="/nl.png" driverInterval="55:59.847" driverFastLap="1:41.681" driverGrid="" driverPosition="1" driverPoints="26" lapColor="#ff00ff" />
         <F1RaceResult teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" constructorName="Haas" driverName="Flaw" driverFlag="/nl.png" driverInterval="+7.220" driverFastLap="1:41.694" driverGrid="1" driverPosition="2" driverPoints="18" arrow="fa-solid fa-angle-up" />
         <F1RaceResult teamBackground="rgba(108, 211, 191, 0.2)" teamImage="/mercedes.png" constructorName="Mercedes" driverName="Cheers" driverFlag="/de.png" driverInterval="+8.295" driverFastLap="1:42.199" driverGrid="2" driverPosition="3" driverPoints="15" arrow="fa-solid fa-angle-up" />
         <F1RaceResult teamBackground="rgba(53, 140, 117, 0.2)" teamImage="/aston-martin.png" constructorName="Aston Martin" driverName="Counterfeit" driverFlag="/gb.png" driverInterval="+14.267" driverFastLap="1:42.790" driverGrid="12" driverPosition="4" driverPoints="12" arrow="fa-solid fa-angle-up"/>

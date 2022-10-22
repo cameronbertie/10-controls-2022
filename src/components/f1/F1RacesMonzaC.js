@@ -19,7 +19,7 @@ export default function F1RacesJeddahB () {
             <th className="fastest-lap"><h6>Fastest Lap</h6></th>
             <th><h6>Pts</h6></th>
         </tr>
-        <F1RaceResult teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" constructorName="Alfa Romeo" driverName="Kai" driverFlag="/gb.png" driverInterval="43:28.528" driverFastLap="1:21.358" driverGrid="12" driverPosition="1" driverPoints="19" arrow="fa-solid fa-angle-up" lapColor="#6a3d9e"/>
+        <F1RaceResult teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" constructorName="Alfa Romeo" driverName="Kai" driverFlag="/gb.png" driverInterval="43:28.528" driverFastLap="1:21.358" driverGrid="12" driverPosition="1" driverPoints="19" arrow="fa-solid fa-angle-up" lapColor="#ff00ff"/>
         <F1RaceResult teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" constructorName="Ferrari" driverName="Las Gamer" driverFlag="/it.png" driverInterval="+10.841" driverFastLap="1:24.824" driverGrid="5" driverPosition="2" driverPoints="16" arrow="fa-solid fa-angle-up"/>
         <F1RaceResult teamBackground="rgba(182, 186, 189, 0.2)" teamImage="/haas.png" constructorName="Haas" driverName="geetype" driverFlag="/se.png" driverInterval="+38.992" driverFastLap="1:23.938" driverGrid="" driverPosition="3" driverPoints="18" />
         <F1RaceResult teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" constructorName="Williams" driverName="Saad" driverFlag="/sa.png" driverInterval="+53.333" driverFastLap="1:22.633" driverGrid="8" driverPosition="4" driverPoints="10" arrow="fa-solid fa-angle-up"/>

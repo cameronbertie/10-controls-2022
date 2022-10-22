@@ -8,9 +8,9 @@ function F1RaceFormat () {
       <section className="race-format-container">
   <h2>The Format</h2>
   <br></br>
-  <h4>THREE TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM</h4>
+  <h4>TWO TIER FORMAT WITH A PROMOTION/RELEGATION SYSTEM</h4>
   <br></br>
-  <h4>WEEKLY SCHEDULED RACES FOR ALL THREE TIERS</h4>
+  <h4>WEEKLY SCHEDULED RACES FOR BOTH TIERS</h4>
   <br></br>
   <h4>50% RACE WITH SHORT QUALIFYING</h4>
 </section>

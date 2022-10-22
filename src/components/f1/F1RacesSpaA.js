@@ -19,7 +19,7 @@ export default function F1RacesMelbourneA () {
             <th className="fastest-lap"><h6>Fastest Lap</h6></th>
             <th><h6>Pts</h6></th>
         </tr>
-        <F1RaceResult teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" constructorName="Williams" driverName="Kalcess" driverFlag="/no.png" driverInterval="47:21.735" driverFastLap="1:45.718" driverGrid="" driverPosition="1" driverPoints="26" lapColor="#6a3d9e"/>
+        <F1RaceResult teamBackground="rgba(55, 190, 221, 0.2)" teamImage="/williams.png" constructorName="Williams" driverName="Kalcess" driverFlag="/no.png" driverInterval="47:21.735" driverFastLap="1:45.718" driverGrid="" driverPosition="1" driverPoints="26" lapColor="#ff00ff"/>
         <F1RaceResult teamBackground="rgba(34, 147, 209, 0.2)" teamImage="/alpine.png" constructorName="Alpine" driverName="Nik Kei" driverFlag="/ua.png" driverInterval="+0.747" driverFastLap="1:46.048" driverGrid="1" driverPosition="2" driverPoints="18" arrow="fa-solid fa-angle-up"/>
         <F1RaceResult teamBackground="rgba(201, 45, 75, 0.2)" teamImage="/alfa-romeo.png" constructorName="Alfa Romeo" driverName="Focuser" driverFlag="/es.png" driverInterval="+3.493" driverFastLap="1:46.126" driverGrid="3" driverPosition="3" driverPoints="15" arrow="fa-solid fa-angle-up"/>
         <F1RaceResult teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" constructorName="Ferrari" driverName="Cortes" driverFlag="/es.png" driverInterval="+6.696" driverFastLap="1:45.846" driverGrid="2" driverPosition="4" driverPoints="12" arrow="fa-solid fa-angle-down"/>

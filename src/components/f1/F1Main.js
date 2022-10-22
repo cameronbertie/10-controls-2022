@@ -25,10 +25,12 @@ function F1Main () {
 </div>
 <div className="page-content">
 <F1RaceFormat />
-<F1TierGrid />
 </div>
 <div className="page-content-full">
 <F1Prize />
+</div>
+<div className="page-content">
+<F1TierGrid />
 </div>
 <div className="page-content">
   <LatestVideos />
