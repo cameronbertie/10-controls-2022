@@ -19,7 +19,7 @@ export default function F1RacesSuzukaB () {
             <th className="fastest-lap"><h6>Fastest Lap</h6></th>
             <th><h6>Pts</h6></th>
         </tr>
-        <F1RaceResult teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" constructorName="Red Bull" driverName="AlphaRomeo" driverFlag="/us.png" driverInterval="47:04.869" driverFastLap="1:31.479" driverGrid="" driverPosition="1" driverPoints="25" />
+        <F1RaceResult teamBackground="rgba(54, 113, 198, 0.2)" teamImage="/red-bull.png" constructorName="Red Bull" driverName="AlphaRomeo" driverFlag="/nl.png" driverInterval="47:04.869" driverFastLap="1:31.479" driverGrid="" driverPosition="1" driverPoints="25" />
         <F1RaceResult teamBackground="rgba(94, 143, 170, 0.2)" teamImage="/alpha-tauri.png" constructorName="AlphaTauri" driverName="rinky" driverFlag="/nl.png" driverInterval="+3.794" driverFastLap="1:31.650" driverGrid="8" driverPosition="2" driverPoints="18" arrow="fa-solid fa-angle-up"/>
         <F1RaceResult teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" constructorName="Ferrari" driverName="Cheers" driverFlag="/de.png" driverInterval="+8.197" driverFastLap="1:31.478" driverGrid="" driverPosition="3" driverPoints="16" lapColor="#ff00ff"/>
         <F1RaceResult teamBackground="rgba(249, 21, 54, 0.2)" teamImage="/ferrari.png" constructorName="Ferrari" driverName="Veixel" driverFlag="/se.png" driverInterval="+9.755" driverFastLap="1:32.482" driverGrid="2" driverPosition="4" driverPoints="12" arrow="fa-solid fa-angle-up"/>
@@ -43,7 +43,7 @@ export default function F1RacesSuzukaB () {
             <h4>Driver of the day</h4>
           </div>
           <div>
-          <h3>SP3XTRE</h3>
+          <h3>AlphaRomeo</h3>
           </div>
         </div>
     </div>
