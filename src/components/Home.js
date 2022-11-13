@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import '../stylesheets/Home.css'
-import UpcomingEvents from './UpcomingEvents'
+// import UpcomingEvents from './UpcomingEvents'
 import LatestVideos from './LatestVideos'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
@@ -36,9 +36,9 @@ export default function Home () {
 </Link>
 </div>
 </div>
-<div className="page-content-full">
+{/* <div className="page-content-full">
 <UpcomingEvents />
-</div>
+</div> */}
 <div className="page-content">
   <LatestVideos />
 <Footer />
