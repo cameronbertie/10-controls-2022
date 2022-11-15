@@ -23,23 +23,15 @@ function F1Prize () {
     </tr>
     <tr className="prize-winner">
       <td className="prize-data">P1</td>
-      <td className="prize-data">$35</td>
+      <td className="prize-data">$80</td>
     </tr>
     <tr className="prize-runner-up">
       <td className="prize-data">P2</td>
-      <td className="prize-data">$15</td>
+      <td className="prize-data">$40</td>
     </tr>
     <tr className="prize-third">
       <td className="prize-data">P3</td>
-      <td className="prize-data">$10</td>
-    </tr>
-    <tr>
-      <td className="prize-data">P4</td>
-      <td className="prize-data">$5</td>
-    </tr>
-    <tr>
-      <td className="prize-data">P5</td>
-      <td className="prize-data">$2.50</td>
+      <td className="prize-data">$20</td>
     </tr>
   </table>
             </div>
@@ -52,19 +44,15 @@ function F1Prize () {
     </tr>
     <tr className="prize-winner">
       <td className="prize-data">P1</td>
-      <td className="prize-data">$20</td>
+      <td className="prize-data">$30</td>
     </tr>
     <tr className="prize-runner-up">
       <td className="prize-data">P2</td>
-      <td className="prize-data">$10</td>
+      <td className="prize-data">$20</td>
     </tr>
     <tr className="prize-third">
       <td className="prize-data">P3</td>
-      <td className="prize-data">$5</td>
-    </tr>
-    <tr>
-      <td className="prize-data">P4</td>
-      <td className="prize-data">$2.50</td>
+      <td className="prize-data">$10</td>
     </tr>
   </table>
             </div>
