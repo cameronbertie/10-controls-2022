@@ -12,10 +12,10 @@ function F1Prize () {
         <div className="view-all-container">
         </div>
         <div className="next-race-box">
-        <p style={{ textAlign: 'left' }}>At the end of every season, THE TOP 5 DRIVERS OF TIER A and the top 4 drivers of tier b WILL EARN A SHARE OF THE PRIZE POOL. The prize pool distribution runs as follows:</p>
+        <p style={{ textAlign: 'left' }}>At the end of every season, THE TOP 3 DRIVERS OF TIER A and the top 3 drivers of tier b WILL EARN A SHARE OF THE PRIZE POOL. The top contructor in each tier will also win some prize money. The prize pool distribution runs as follows:</p>
           <div className="next-race-tier-container">
             <div className="f1-prize-container">
-            <h2>Tier A</h2>
+            <h2><br></br>Tier A</h2>
             <table className="prize-table">
     <tr>
       <th className="prize-header">Place</th>
@@ -36,7 +36,7 @@ function F1Prize () {
   </table>
             </div>
             <div className="f1-prize-container">
-            <h2>Tier B</h2>
+            <h2><br></br>Tier B</h2>
             <table className="prize-table">
     <tr>
       <th className="prize-header">Place</th>
@@ -53,6 +53,23 @@ function F1Prize () {
     <tr className="prize-third">
       <td className="prize-data">P3</td>
       <td className="prize-data">$10</td>
+    </tr>
+  </table>
+            </div>
+            <div className="f1-prize-container">
+            <h2>Constructors Championship</h2>
+            <table className="prize-table">
+    <tr>
+      <th className="prize-header">Tier</th>
+      <th className="prize-header">$ USD</th>
+    </tr>
+    <tr className="prize-winner">
+      <td className="prize-data">Tier A</td>
+      <td className="prize-data">$20 ($10 each)</td>
+    </tr>
+    <tr className="prize-winner">
+      <td className="prize-data">Tier B</td>
+      <td className="prize-data">$10 ($5 each)</td>
     </tr>
   </table>
             </div>
