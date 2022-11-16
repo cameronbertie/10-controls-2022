@@ -15,7 +15,7 @@ function F1Prize () {
         <p style={{ textAlign: 'left' }}>At the end of every season, THE TOP 3 DRIVERS OF TIER A and the top 3 drivers of tier b WILL EARN A SHARE OF THE PRIZE POOL. The top contructor in each tier will also win some prize money. The prize pool distribution runs as follows:</p>
           <div className="next-race-tier-container">
             <div className="f1-prize-container">
-            <h2><br></br>Tier A</h2>
+            <h2>Tier A Drivers</h2>
             <table className="prize-table">
     <tr>
       <th className="prize-header">Place</th>
@@ -36,7 +36,7 @@ function F1Prize () {
   </table>
             </div>
             <div className="f1-prize-container">
-            <h2><br></br>Tier B</h2>
+            <h2>Tier B Drivers</h2>
             <table className="prize-table">
     <tr>
       <th className="prize-header">Place</th>
@@ -57,7 +57,7 @@ function F1Prize () {
   </table>
             </div>
             <div className="f1-prize-container">
-            <h2>Constructors Champions</h2>
+            <h2>Constructors</h2>
             <table className="prize-table">
     <tr>
     <th className="prize-header">Place</th>
