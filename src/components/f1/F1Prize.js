@@ -57,17 +57,20 @@ function F1Prize () {
   </table>
             </div>
             <div className="f1-prize-container">
-            <h2>Constructors Championship</h2>
+            <h2>Constructors Champions</h2>
             <table className="prize-table">
     <tr>
+    <th className="prize-header">Place</th>
       <th className="prize-header">Tier</th>
       <th className="prize-header">$ USD</th>
     </tr>
     <tr className="prize-winner">
+    <td className="prize-data">P1</td>
       <td className="prize-data">Tier A</td>
       <td className="prize-data">$20 ($10 each)</td>
     </tr>
     <tr className="prize-winner">
+    <td className="prize-data">P1</td>
       <td className="prize-data">Tier B</td>
       <td className="prize-data">$10 ($5 each)</td>
     </tr>
