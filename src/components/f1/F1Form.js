@@ -58,7 +58,7 @@ export default function F1Form () {
         <div className="form-heading-container">
           <h3 className="form-step">Step 1. Fill out the form</h3>
           <h4 className="form-step-description">
-            To get a reserve spot for racing
+          TO SIGN UP FOR F1 LEAGUE RACING
           </h4>
         </div>
         <div>
