@@ -20,10 +20,10 @@ export default function F1RacesTierB () {
       <F1RaceBoxComplete raceName="Miami" raceDate={new Date(2022, 8, 24).getTime()} raceFlag="/us.png" raceLink="/f1/races/tier-b/miami" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
       <F1RaceBoxComplete raceName="Mexico" raceDate={new Date(2022, 9, 1).getTime()} raceFlag="/mx.png" raceLink="/f1/races/tier-b/mexico" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
       <F1RaceBoxComplete raceName="Imola (Sprint)" raceDate={new Date(2022, 9, 8).getTime()} raceFlag="/it.png" raceLink="/f1/races/tier-b/imola" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
-      <F1RaceBoxComplete raceName="Barcelona" raceDate={new Date(2022, 9, 15).getTime()} raceFlag="/es.png" raceLink="/f1/races/tier-b/spain" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
-      <F1RaceBoxComplete raceName="Suzuka" raceDate={new Date(2022, 9, 22).getTime()} raceFlag="/jp.png" raceLink="/f1/races/tier-b/suzuka" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
+      <F1RaceBoxComplete raceName="Barcelona" raceDate={new Date(2022, 9, 15).getTime()} raceFlag="/es.png" raceLink="/f1/races/tier-b/spain" videoLink="https://www.youtube.com/watch?v=swmwcXtei3A"/>
+      <F1RaceBoxComplete raceName="Suzuka" raceDate={new Date(2022, 9, 22).getTime()} raceFlag="/jp.png" raceLink="/f1/races/tier-b/suzuka" videoLink="https://www.youtube.com/watch?v=L3iSvGpZ-fQ"/>
       <F1RaceBoxComplete raceName="Montreal" raceDate={new Date(2022, 9, 29).getTime()} raceFlag="/ca.png" raceLink="/f1/races/tier-b/montreal" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
-      <F1RaceBoxComplete raceName="Bahrain (Sprint)" raceDate={new Date(2022, 10, 5).getTime()} raceFlag="/bh.png" raceLink="/f1/races/tier-b/bahrain" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
+      <F1RaceBoxComplete raceName="Bahrain (Sprint)" raceDate={new Date(2022, 10, 5).getTime()} raceFlag="/bh.png" raceLink="/f1/races/tier-b/bahrain" videoLink="https://www.youtube.com/watch?v=H22K3kd3SFc"/>
       <F1RaceBoxComplete raceName="Yas Marina" raceDate={new Date(2022, 10, 12).getTime()} raceFlag="/ae.png" raceLink="/f1/races/tier-b/abu-dhabi" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
         {races.map(race => {
           return (<F1RaceBox key={race.id} raceName={race.name} raceDate={race.date} raceFlag={race.flag} />)

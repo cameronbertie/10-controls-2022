@@ -20,8 +20,8 @@ export default function F1RacesTierA () {
       <F1RaceBoxComplete raceName="Mexico" raceDate={new Date(2022, 8, 30).getTime()} raceFlag="/mx.png" raceLink="/f1/races/tier-a/mexico" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
       <F1RaceBoxComplete raceName="Imola (Sprint)" raceDate={new Date(2022, 9, 7).getTime()} raceFlag="/it.png" raceLink="/f1/races/tier-a/imola" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
       <F1RaceBoxComplete raceName="Barcelona" raceDate={new Date(2022, 9, 14).getTime()} raceFlag="/es.png" raceLink="/f1/races/tier-a/spain" videoLink="https://www.youtube.com/watch?v=-F7HoD0nby4&ab_channel=10Controls" />
-      <F1RaceBoxComplete raceName="Suzuka" raceDate={new Date(2022, 9, 21).getTime()} raceFlag="/jp.png" raceLink="/f1/races/tier-a/suzuka" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
-      <F1RaceBoxComplete raceName="Montreal" raceDate={new Date(2022, 9, 28).getTime()} raceFlag="/ca.png" raceLink="/f1/races/tier-a/montreal" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
+      <F1RaceBoxComplete raceName="Suzuka" raceDate={new Date(2022, 9, 21).getTime()} raceFlag="/jp.png" raceLink="/f1/races/tier-a/suzuka" videoLink="https://www.youtube.com/watch?v=ffK_BZgOKXA"/>
+      <F1RaceBoxComplete raceName="Montreal" raceDate={new Date(2022, 9, 28).getTime()} raceFlag="/ca.png" raceLink="/f1/races/tier-a/montreal" videoLink="https://www.youtube.com/watch?v=KC_EQEd0aQA"/>
       <F1RaceBoxComplete raceName="Bahrain (Sprint)" raceDate={new Date(2022, 10, 4).getTime()} raceFlag="/bh.png" raceLink="/f1/races/tier-a/bahrain" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
       <F1RaceBoxComplete raceName="Yas Marina" raceDate={new Date(2022, 10, 11).getTime()} raceFlag="/ae.png" raceLink="/f1/races/tier-a/abu-dhabi" videoLink="https://www.youtube.com/channel/UCTC5mPAHhoBq6Uv4eNIshMg"/>
         {races.map(race => {
